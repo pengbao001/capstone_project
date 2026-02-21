@@ -1,0 +1,79 @@
+{
+    "tables": {
+        "diabetes": {
+            "columns": {
+                "race": {
+                    "sdtype": "categorical"
+                },
+                "gender": {
+                    "sdtype": "categorical"
+                },
+                "age": {
+                    "sdtype": "categorical"
+                },
+                "discharge_disposition_id": {
+                    "sdtype": "id"
+                },
+                "admission_source_id": {
+                    "sdtype": "id"
+                },
+                "time_in_hospital": {
+                    "sdtype": "numerical"
+                },
+                "medical_specialty": {
+                    "sdtype": "categorical"
+                },
+                "num_lab_procedures": {
+                    "sdtype": "numerical"
+                },
+                "num_procedures": {
+                    "sdtype": "categorical"
+                },
+                "num_medications": {
+                    "sdtype": "numerical"
+                },
+                "primary_diagnosis": {
+                    "sdtype": "categorical"
+                },
+                "number_diagnoses": {
+                    "sdtype": "numerical"
+                },
+                "max_glu_serum": {
+                    "sdtype": "categorical"
+                },
+                "A1Cresult": {
+                    "sdtype": "categorical"
+                },
+                "insulin": {
+                    "sdtype": "categorical"
+                },
+                "change": {
+                    "sdtype": "categorical"
+                },
+                "diabetesMed": {
+                    "sdtype": "categorical"
+                },
+                "medicare": {
+                    "sdtype": "categorical"
+                },
+                "medicaid": {
+                    "sdtype": "categorical"
+                },
+                "had_emergency": {
+                    "sdtype": "categorical"
+                },
+                "had_inpatient_days": {
+                    "sdtype": "categorical"
+                },
+                "had_outpatient_days": {
+                    "sdtype": "categorical"
+                },
+                "readmit_binary": {
+                    "sdtype": "boolean"
+                }
+            }
+        }
+    },
+    "relationships": [],
+    "METADATA_SPEC_VERSION": "V1"
+}
