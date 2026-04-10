@@ -8,7 +8,9 @@
 
 ## Build & run
 Clone the project, unzip syn_microservice and run this command from your terminal - 
+
 cd syn_microservice
+
 docker compose up --build
 
 ## Open
