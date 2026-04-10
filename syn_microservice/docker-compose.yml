@@ -1,0 +1,36 @@
+services:
+  redis:
+    image: redis:7
+    ports:
+      - "6379:6379"
+
+  api:
+    build: ./services/api
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - ARTIFACT_DIR=/artifacts
+    volumes:
+      - ./artifacts:/artifacts
+    ports:
+      - "8000:8000"
+    depends_on:
+      - redis
+
+  worker:
+    build: ./services/worker
+    environment:
+      - REDIS_URL=redis://redis:6379/0
+      - ARTIFACT_DIR=/artifacts
+    volumes:
+      - ./artifacts:/artifacts
+    depends_on:
+      - redis
+
+  ui:
+    build: ./services/ui
+    environment:
+      - API_URL=http://api:8000
+    ports:
+      - "8501:8501"
+    depends_on:
+      - api
