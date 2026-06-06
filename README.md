@@ -57,29 +57,6 @@ git clone <repository-url>
 cd capstone_project/syn_microservice
 ```
 
-### Download Pre-trained Models & Dataset
-
-The system requires three pre-trained synthetic generator models and the base healthcare dataset. These are stored in the `artifacts/` directory:
-
-```bash
-# Create artifacts directory if it doesn't exist
-mkdir -p artifacts
-
-# Download pre-trained models and dataset
-# (These should be provided separately or generated via external training pipeline)
-# Expected files:
-# - artifacts/gaussian_copula_diabetes.pkl          (~50 MB)
-# - artifacts/ctgan_diabetes.pkl                    (~100 MB)
-# - artifacts/tvae_diabetes.pkl                     (~150 MB)
-# - artifacts/fairlearn_diabetes_hospital.pkl       (~20 MB, real dataset)
-# - artifacts/diabetes_metadata.json                (~5 KB)
-
-# Verify files exist:
-ls -lh artifacts/*.pkl artifacts/*.json
-```
-
----
-
 ## Running Locally
 
 ### Quick Start
@@ -172,50 +149,6 @@ Restart services:
 docker-compose down
 docker-compose up --build
 ```
-
----
-
-## Project Structure
-
-```
-syn_microservice/
-├── docker-compose.yml              # 5-service orchestration config
-├── README.md                        # This file
-│
-├── services/
-│   ├── api/                        # FastAPI backend
-│   │   ├── main.py                # Endpoints: /runs, /llm/plan, /llm/explain, /artifact, /dataset/preview
-│   │   ├── llm_service.py         # Ollama LLM integration
-│   │   ├── requirements.txt       # Python dependencies
-│   │   └── Dockerfile             
-│   │
-│   ├── worker/                     # Async job processor
-│   │   ├── worker.py              # Synthetic generation + evaluation pipeline
-│   │   ├── requirements.txt       
-│   │   └── Dockerfile             
-│   │
-│   └── ui/                         # Streamlit dashboard
-│       ├── app.py                 # Interactive web UI
-│       ├── requirements.txt       
-│       └── Dockerfile             
-│
-└── artifacts/                      # Persistent shared volume
-    ├── diabetes_metadata.json     
-    ├── fairlearn_diabetes_hospital.pkl  # Real dataset
-    ├── gaussian_copula_diabetes.pkl     # Pre-trained model
-    ├── ctgan_diabetes.pkl               
-    ├── tvae_diabetes.pkl                
-    ├── [run_id_1]/                # Output from each experiment run
-    │   ├── config.json            
-    │   ├── metrics.json           
-    │   ├── real_reference.csv     
-    │   ├── synthetic/             
-    │   ├── fairness/              
-    │   ├── privacy/               
-    │   └── reports/               
-    └── [run_id_2]/, [run_id_3]/, ...
-```
-
 ---
 
 ## Usage Workflow
@@ -385,14 +318,6 @@ docker-compose up --build
 ### Remote Deployment (UCI VPN)
 
 System is hosted at **http://172.27.135.4:8501/** (requires UCI VPN access)
-
-To deploy to remote server:
-
-1. SSH into server
-2. Clone repository
-3. Copy pre-trained models and dataset to `/artifacts/`
-4. Run `docker-compose up -d` (background mode)
-5. Configure firewall/reverse proxy for external access
 
 **Note:** Current setup is **single-user, no authentication**. Not recommended for multi-tenant or production healthcare environments.
 
