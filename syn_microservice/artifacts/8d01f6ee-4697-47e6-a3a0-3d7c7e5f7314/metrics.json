@@ -1,0 +1,241 @@
+{
+  "run_id": "8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314",
+  "rows": [
+    {
+      "generator": "GaussianCopula",
+      "error": "Failed to load model GaussianCopula: Missing pretrained model: /artifacts/gaussian_copuula_diabetes.pkl"
+    },
+    {
+      "run_id": "8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314",
+      "generator": "CTGAN",
+      "num_rows": 5000,
+      "subset_rows": 10000,
+      "train_seconds": 29.414300203323364,
+      "diagnostic_score": 1.0,
+      "quality_score": 0.8718095238095238,
+      "diag_data_validity": 1.0,
+      "diag_data_structure": 1.0,
+      "qual_column_shapes": 0.9004190476190478,
+      "qual_column_pair_trends": 0.8432,
+      "new_row_synthesis": 0.9998,
+      "table_structure": NaN,
+      "baseline_auc": 0.6225581522142639,
+      "tstr_auc": 0.575202586692757,
+      "tstr_f1": 0.000877963125548727,
+      "tstr_acc": 0.8881792276702368,
+      "dp_max": 0.000655307994757536,
+      "baseline_dp_max": 0.0,
+      "dp_amplification": 0.000655307994757536,
+      "privacy_exact_dup_rate": 0.0002,
+      "privacy_nn_leakage_rate": 0.0074,
+      "privacy_nn_tau": 0.004389079946053768,
+      "privacy_mia_auc": 0.5055001400000001,
+      "synthetic_sample_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/synthetic/CTGAN_sample.csv",
+      "diagnostic_report_pkl": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/sdmetrics/CTGAN_diagnostic_report.pkl",
+      "quality_report_pkl": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/sdmetrics/CTGAN_quality_report.pkl",
+      "individual_column_metrics_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/CTGAN_individual_column_metrics.csv",
+      "pair_corr_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/CTGAN_pair_correlation_similarity.csv",
+      "pair_contingency_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/CTGAN_pair_contingency_similarity.csv",
+      "privacy_json": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/privacy/CTGAN_privacy.json"
+    },
+    {
+      "run_id": "8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314",
+      "generator": "TVAE",
+      "num_rows": 5000,
+      "subset_rows": 10000,
+      "train_seconds": 28.670639753341675,
+      "diagnostic_score": 1.0,
+      "quality_score": 0.926954761904762,
+      "diag_data_validity": 1.0,
+      "diag_data_structure": 1.0,
+      "qual_column_shapes": 0.9412095238095239,
+      "qual_column_pair_trends": 0.9127000000000001,
+      "new_row_synthesis": 1.0,
+      "table_structure": NaN,
+      "baseline_auc": 0.6225581522142639,
+      "tstr_auc": 0.5800842307133458,
+      "tstr_f1": 0.012760527435133985,
+      "tstr_acc": 0.885968360027513,
+      "dp_max": 0.014416775884665793,
+      "baseline_dp_max": 0.0,
+      "dp_amplification": 0.014416775884665793,
+      "privacy_exact_dup_rate": 0.0,
+      "privacy_nn_leakage_rate": 0.005,
+      "privacy_nn_tau": 0.004389079946053768,
+      "privacy_mia_auc": 0.5098459799999999,
+      "synthetic_sample_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/synthetic/TVAE_sample.csv",
+      "diagnostic_report_pkl": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/sdmetrics/TVAE_diagnostic_report.pkl",
+      "quality_report_pkl": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/sdmetrics/TVAE_quality_report.pkl",
+      "individual_column_metrics_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/TVAE_individual_column_metrics.csv",
+      "pair_corr_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/TVAE_pair_correlation_similarity.csv",
+      "pair_contingency_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/TVAE_pair_contingency_similarity.csv",
+      "privacy_json": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/privacy/TVAE_privacy.json"
+    }
+  ],
+  "full": {
+    "run_id": "8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314",
+    "num_rows": 5000,
+    "subset_rows": 10000,
+    "baseline": {
+      "utility_real_to_real": {
+        "auc": 0.6225581522142639,
+        "f1": 0.0,
+        "acc": 0.8884248796305394
+      },
+      "fairness_real_to_real": {
+        "dp_max": 0.0
+      }
+    },
+    "models": {
+      "GaussianCopula": {
+        "error": "Failed to load model GaussianCopula: Missing pretrained model: /artifacts/gaussian_copuula_diabetes.pkl"
+      },
+      "CTGAN": {
+        "reports": {
+          "diagnostic_score": 1.0,
+          "quality_score": 0.8718095238095238
+        },
+        "utility": {
+          "baseline": {
+            "auc": 0.6225581522142639,
+            "f1": 0.0,
+            "acc": 0.8884248796305394
+          },
+          "tstr": {
+            "auc": 0.575202586692757,
+            "f1": 0.000877963125548727,
+            "acc": 0.8881792276702368
+          }
+        },
+        "fairness": {
+          "dp_max": 0.000655307994757536,
+          "dp_amplification": 0.000655307994757536,
+          "race": {
+            "view": "race",
+            "dp_diff": 0.00039627501486031304,
+            "dp_ratio": 0.0,
+            "selection_rate_gap": 0.00039627501486031304,
+            "error_rate_gap": 0.02016913897216499,
+            "TPR_gap": 0.0005903187721369539,
+            "FPR_gap": 0.0003718301479883989
+          },
+          "gender": {
+            "view": "gender",
+            "dp_diff": 4.67545755615261e-05,
+            "dp_ratio": 0.872091169907555,
+            "selection_rate_gap": 4.67545755615261e-05,
+            "error_rate_gap": 0.0018470145038131103,
+            "TPR_gap": 0.0008123476848090983,
+            "FPR_gap": 4.948391097609481e-05
+          },
+          "intersection": {
+            "view": "intersection",
+            "dp_diff": 0.000655307994757536,
+            "dp_ratio": 0.0,
+            "selection_rate_gap": 0.000655307994757536,
+            "error_rate_gap": 0.13806193806193806,
+            "TPR_gap": 0.0011037527593818985,
+            "FPR_gap": 0.0007412898443291327
+          }
+        },
+        "privacy": {
+          "exact_duplicate_rate": 0.0002,
+          "nn_percentile": 1.0,
+          "nn_tau": 0.004389079946053768,
+          "nn_leakage_rate": 0.0074,
+          "nn_dist_syn_mean": 0.053967535774687485,
+          "nn_dist_test_mean": 0.05133074519112984,
+          "mia_auc": 0.5055001400000001,
+          "dist_train_mean": 0.060945580667247305,
+          "dist_test_mean": 0.06150868979306372
+        },
+        "single_table_metrics": {
+          "new_row_synthesis": 0.9998,
+          "table_structure": NaN
+        },
+        "artifacts": {
+          "synthetic_sample_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/synthetic/CTGAN_sample.csv",
+          "diagnostic_report_pkl": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/sdmetrics/CTGAN_diagnostic_report.pkl",
+          "quality_report_pkl": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/sdmetrics/CTGAN_quality_report.pkl",
+          "individual_column_metrics_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/CTGAN_individual_column_metrics.csv",
+          "pair_corr_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/CTGAN_pair_correlation_similarity.csv",
+          "pair_contingency_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/CTGAN_pair_contingency_similarity.csv",
+          "privacy_json": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/privacy/CTGAN_privacy.json"
+        }
+      },
+      "TVAE": {
+        "reports": {
+          "diagnostic_score": 1.0,
+          "quality_score": 0.926954761904762
+        },
+        "utility": {
+          "baseline": {
+            "auc": 0.6225581522142639,
+            "f1": 0.0,
+            "acc": 0.8884248796305394
+          },
+          "tstr": {
+            "auc": 0.5800842307133458,
+            "f1": 0.012760527435133985,
+            "acc": 0.885968360027513
+          }
+        },
+        "fairness": {
+          "dp_max": 0.014416775884665793,
+          "dp_amplification": 0.014416775884665793,
+          "race": {
+            "view": "race",
+            "dp_diff": 0.010624841892233746,
+            "dp_ratio": 0.0,
+            "selection_rate_gap": 0.010624841892233746,
+            "error_rate_gap": 0.027505339326326386,
+            "TPR_gap": 0.013452914798206279,
+            "FPR_gap": 0.010265183917878529
+          },
+          "gender": {
+            "view": "gender",
+            "dp_diff": 0.0013856055896838064,
+            "dp_ratio": 0.7036378589883113,
+            "selection_rate_gap": 0.0013856055896838064,
+            "error_rate_gap": 0.0014134835515606792,
+            "TPR_gap": 0.0037797600449915644,
+            "FPR_gap": 0.001092139312843017
+          },
+          "intersection": {
+            "view": "intersection",
+            "dp_diff": 0.014416775884665793,
+            "dp_ratio": 0.0,
+            "selection_rate_gap": 0.014416775884665793,
+            "error_rate_gap": 0.13806193806193806,
+            "TPR_gap": 0.01694915254237288,
+            "FPR_gap": 0.014084507042253521
+          }
+        },
+        "privacy": {
+          "exact_duplicate_rate": 0.0,
+          "nn_percentile": 1.0,
+          "nn_tau": 0.004389079946053768,
+          "nn_leakage_rate": 0.005,
+          "nn_dist_syn_mean": 0.053207795812551376,
+          "nn_dist_test_mean": 0.05133074519112984,
+          "mia_auc": 0.5098459799999999,
+          "dist_train_mean": 0.05730345737274618,
+          "dist_test_mean": 0.05830606441550606
+        },
+        "single_table_metrics": {
+          "new_row_synthesis": 1.0,
+          "table_structure": NaN
+        },
+        "artifacts": {
+          "synthetic_sample_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/synthetic/TVAE_sample.csv",
+          "diagnostic_report_pkl": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/sdmetrics/TVAE_diagnostic_report.pkl",
+          "quality_report_pkl": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/sdmetrics/TVAE_quality_report.pkl",
+          "individual_column_metrics_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/TVAE_individual_column_metrics.csv",
+          "pair_corr_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/TVAE_pair_correlation_similarity.csv",
+          "pair_contingency_csv": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/reports/details/TVAE_pair_contingency_similarity.csv",
+          "privacy_json": "/artifacts/8d01f6ee-4697-47e6-a3a0-3d7c7e5f7314/privacy/TVAE_privacy.json"
+        }
+      }
+    }
+  }
+}

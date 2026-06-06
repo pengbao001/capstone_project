@@ -1,0 +1,11 @@
+{
+  "run_id": "14e3ef1d-8262-4191-b1a3-575e72d8c602",
+  "dataset": "diabetes",
+  "generators": [
+    "gaussian_copula"
+  ],
+  "num_rows": 1000,
+  "subset_rows": 10000,
+  "ctgan_epochs": 50,
+  "tvae_epochs": 50
+}

@@ -1,0 +1,11 @@
+{
+  "exact_duplicate_rate": 0.0002,
+  "nn_percentile": 1.0,
+  "nn_tau": 0.004389079946053768,
+  "nn_leakage_rate": 0.0074,
+  "nn_dist_syn_mean": 0.053967535774687485,
+  "nn_dist_test_mean": 0.05133074519112984,
+  "mia_auc": 0.5055001400000001,
+  "dist_train_mean": 0.060945580667247305,
+  "dist_test_mean": 0.06150868979306372
+}

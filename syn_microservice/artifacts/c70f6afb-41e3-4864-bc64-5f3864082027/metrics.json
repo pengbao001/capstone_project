@@ -1,0 +1,29 @@
+{
+  "run_id": "c70f6afb-41e3-4864-bc64-5f3864082027",
+  "rows": [
+    {
+      "generator": "GaussianCopula",
+      "error": "Failed to load model GaussianCopula: Missing pretrained model: /artifacts/gaussian_copuula_diabetes.pkl"
+    }
+  ],
+  "full": {
+    "run_id": "c70f6afb-41e3-4864-bc64-5f3864082027",
+    "num_rows": 1000,
+    "subset_rows": 10000,
+    "baseline": {
+      "utility_real_to_real": {
+        "auc": 0.6239169241941356,
+        "f1": 0.0,
+        "acc": 0.8884248796305394
+      },
+      "fairness_real_to_real": {
+        "dp_max": 0.0
+      }
+    },
+    "models": {
+      "GaussianCopula": {
+        "error": "Failed to load model GaussianCopula: Missing pretrained model: /artifacts/gaussian_copuula_diabetes.pkl"
+      }
+    }
+  }
+}

@@ -1,0 +1,1001 @@
+race,gender,age,discharge_disposition_id,admission_source_id,time_in_hospital,medical_specialty,num_lab_procedures,num_procedures,num_medications,primary_diagnosis,number_diagnoses,max_glu_serum,A1Cresult,insulin,change,diabetesMed,medicare,medicaid,had_emergency,had_inpatient_days,had_outpatient_days,readmit_binary
+Caucasian,Female,'30-60 years',Other,Emergency,6,Other,50,0,16,'Respiratory Issues',9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Missing,3,0,9,Other,6,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Emergency,5,Missing,51,3,10,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,8,Other,42,0,18,'Respiratory Issues',5,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,2,Family/GeneralPractice,43,0,12,'Respiratory Issues',9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,8,Family/GeneralPractice,45,3,14,Other,6,None,None,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Emergency,8,Missing,35,0,8,Other,9,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,8,Cardiology,53,0,7,Other,8,None,Norm,Steady,No,Yes,True,False,False,False,False,False
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Emergency,1,Missing,48,0,8,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Emergency,8,Other,49,0,8,Other,5,None,None,Steady,No,Yes,False,False,False,True,False,False
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Other,8,Missing,35,3,9,Other,5,None,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,3,Missing,32,0,8,Other,7,None,None,No,No,No,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,2,Other,1,1,8,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,3,Missing,31,0,15,Diabetes,9,None,None,No,Ch,Yes,False,True,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,5,Missing,54,0,10,'Respiratory Issues',8,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,8,Family/GeneralPractice,1,2,23,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,2,Missing,46,0,12,Other,9,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Other,3,0,8,'Genitourinary Issues',5,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,1,Missing,25,2,14,Other,4,>200,None,Steady,Ch,Yes,True,False,True,False,False,True
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,3,Missing,55,0,15,Other,9,None,None,Steady,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,2,Missing,43,4,9,Other,9,None,>7,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Referral,2,Missing,2,6,11,Other,7,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,6,Other,49,1,25,Other,8,None,None,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,4,InternalMedicine,58,5,16,Other,9,None,None,Up,Ch,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,3,Missing,46,0,10,Diabetes,9,None,>7,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,4,Missing,53,3,26,Other,9,None,None,Up,Ch,Yes,False,False,False,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,Missing,1,1,21,'Respiratory Issues',9,None,None,No,Ch,Yes,False,False,False,False,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,1,Other,53,3,17,Other,5,None,>7,Steady,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years',Other,Referral,5,InternalMedicine,39,1,17,Other,6,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,1,Family/GeneralPractice,45,0,11,'Genitourinary Issues',7,None,None,No,No,No,True,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,2,InternalMedicine,36,0,9,Other,9,None,None,No,No,Yes,False,False,False,False,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,4,Emergency/Trauma,37,3,21,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,True
+Caucasian,Male,'30-60 years',Other,Emergency,1,Emergency/Trauma,54,2,9,Other,9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,2,Other,37,5,10,Other,5,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,8,Other,48,4,21,Other,7,None,None,Steady,No,Yes,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,Emergency/Trauma,45,3,18,Other,9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,2,Family/GeneralPractice,2,0,12,'Respiratory Issues',9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Other,4,Missing,27,5,11,Other,9,None,None,No,No,Yes,True,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,1,InternalMedicine,48,0,11,Other,7,None,None,Steady,No,Yes,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Referral,5,Missing,45,2,25,Other,7,None,None,Down,Ch,Yes,True,False,True,True,False,True
+Caucasian,Female,'Over 60 years',Other,Other,1,InternalMedicine,49,1,11,'Respiratory Issues',9,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,3,Missing,44,3,18,Other,9,None,None,Steady,No,Yes,True,False,True,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,4,Missing,56,1,21,Other,9,None,None,No,No,No,True,False,True,False,True,True
+Caucasian,Male,'Over 60 years',Other,Referral,4,Other,56,6,20,Other,7,None,Norm,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,Emergency/Trauma,25,0,6,Diabetes,6,None,None,Steady,Ch,Yes,True,False,False,True,False,True
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Other,1,Other,15,0,10,Other,5,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,56,0,14,Other,9,None,>8,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,10,Other,59,4,42,Other,9,None,None,No,Ch,Yes,False,False,False,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,Family/GeneralPractice,43,0,10,Other,6,None,>7,Down,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,6,Other,51,2,18,Other,6,None,None,Up,Ch,Yes,True,False,False,True,False,True
+Caucasian,Female,'30-60 years',Other,Referral,6,Other,33,2,22,Other,7,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,Family/GeneralPractice,30,4,23,Other,9,None,Norm,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Other,3,Missing,49,2,20,Other,9,None,None,No,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,2,Emergency/Trauma,1,1,8,'Respiratory Issues',9,None,None,No,No,No,False,False,True,True,True,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,2,Missing,53,0,13,Other,9,None,None,No,Ch,Yes,False,False,False,True,False,True
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,4,Missing,33,0,7,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,49,4,12,Other,6,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,4,Missing,22,0,22,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,False,False,True
+Caucasian,Male,'Over 60 years',Other,Emergency,1,Other,57,2,18,'Respiratory Issues',6,None,None,Steady,Ch,Yes,False,False,False,True,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,8,Other,48,4,23,Other,5,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,13,InternalMedicine,59,0,19,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Other,58,1,28,Other,9,None,None,Up,Ch,Yes,True,False,True,True,False,False
+Caucasian,Female,'30-60 years',Other,Referral,8,Missing,23,0,21,Other,7,None,None,Down,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,4,Missing,33,1,6,Other,7,None,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,1,Cardiology,25,4,12,Other,9,Norm,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,4,Missing,57,0,18,'Respiratory Issues',9,None,None,No,No,No,True,False,False,False,True,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,4,Missing,35,0,7,Other,5,None,None,No,No,Yes,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,6,InternalMedicine,42,0,8,Other,6,None,None,No,No,No,True,False,False,True,False,False
+Caucasian,Male,'30-60 years',Other,Emergency,1,Cardiology,52,0,12,Other,9,None,None,Steady,Ch,Yes,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,1,Emergency/Trauma,57,0,11,Other,9,None,None,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,2,Other,51,5,9,Other,6,None,None,Steady,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,Emergency/Trauma,24,0,10,Diabetes,9,None,Norm,Down,Ch,Yes,True,False,False,False,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Cardiology,55,2,11,Other,7,None,>7,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,54,4,14,Other,7,None,None,No,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,8,Other,45,0,18,Other,9,None,None,Steady,Ch,Yes,True,False,False,False,True,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Emergency/Trauma,42,0,17,Other,5,None,Norm,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'30-60 years',Other,Referral,6,Other,43,1,14,'Musculoskeletal Issues',9,None,None,Steady,No,Yes,False,False,False,False,True,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,3,Missing,57,1,16,'Respiratory Issues',8,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,6,Missing,25,6,20,Other,6,>200,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,8,InternalMedicine,46,1,21,Other,5,Norm,Norm,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,5,Missing,44,1,13,Other,9,None,None,No,No,No,True,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years',Other,Referral,8,Missing,3,2,14,Diabetes,8,None,>7,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,1,Missing,56,0,18,Other,9,None,None,Down,Ch,Yes,True,False,True,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,52,1,11,'Respiratory Issues',9,None,None,Up,Ch,Yes,False,False,True,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,8,Missing,1,1,19,Other,9,None,None,Down,Ch,Yes,False,True,True,False,True,True
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,3,Missing,54,2,10,Other,7,None,None,No,No,Yes,False,False,True,True,True,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,6,Missing,64,6,47,Other,9,None,None,Down,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,4,Missing,52,2,11,Other,6,None,None,Steady,No,No,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,13,Missing,1,0,15,Other,6,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,8,Missing,40,0,9,Other,5,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Referral,1,Other,41,0,18,Other,5,None,Norm,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Other,8,Missing,4,1,11,Other,9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,1,Missing,3,0,11,Other,7,None,None,No,No,No,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,58,0,23,Other,9,None,None,Down,Ch,Yes,False,False,False,False,True,False
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Referral,1,Missing,31,0,15,Other,6,None,Norm,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,2,Missing,39,1,14,'Respiratory Issues',9,None,None,No,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Other,1,Family/GeneralPractice,49,0,8,Other,6,None,None,Steady,Ch,Yes,True,False,True,True,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,4,Missing,36,2,25,Other,6,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,2,Other,56,0,17,Diabetes,7,None,None,No,Ch,Yes,False,False,False,False,False,True
+Caucasian,Male,'Over 60 years',Other,Emergency,5,Missing,42,3,9,Other,6,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,8,Missing,34,0,8,Other,5,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,Emergency/Trauma,34,3,15,Other,7,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,3,Missing,34,0,12,Other,9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,1,Missing,51,0,11,Other,9,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,8,Other,16,0,10,Diabetes,5,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Other,3,Other,2,2,19,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,8,Family/GeneralPractice,49,0,16,Other,5,None,None,Steady,No,Yes,False,True,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,4,Missing,63,0,16,'Respiratory Issues',7,None,>8,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,1,Other,47,0,13,'Musculoskeletal Issues',5,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,1,Missing,42,0,12,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Other,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,52,6,21,Other,9,None,None,Down,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,5,Missing,47,4,12,Other,9,None,None,Steady,No,Yes,True,False,True,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,Missing,37,3,18,Other,9,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Male,'30-60 years',Other,Other,3,Missing,50,1,10,Diabetes,7,None,>7,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,8,Other,45,0,8,Other,4,None,None,Steady,No,Yes,False,False,False,True,False,True
+Caucasian,Female,'30-60 years',Other,Emergency,2,Missing,54,0,18,'Respiratory Issues',9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Emergency/Trauma,16,0,14,'Respiratory Issues',5,None,None,No,No,No,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,40,1,22,'Respiratory Issues',9,None,None,No,Ch,Yes,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,46,0,18,Other,7,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,2,Missing,28,0,19,Other,7,None,None,Down,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Other,7,InternalMedicine,50,0,13,Other,5,None,Norm,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,1,Missing,39,0,8,Diabetes,5,None,>7,No,No,No,True,False,False,False,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,8,Missing,3,2,16,Other,9,None,None,No,Ch,Yes,False,False,False,False,True,False
+AfricanAmerican,Female,'Over 60 years',Other,Other,8,Family/GeneralPractice,44,3,9,Other,6,None,None,Up,Ch,Yes,True,False,True,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,2,Missing,1,5,24,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,2,Family/GeneralPractice,38,1,16,Other,5,None,None,Steady,No,Yes,False,False,False,False,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,1,Missing,4,0,9,'Respiratory Issues',5,None,>8,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,4,Other,14,2,22,Other,9,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,6,Missing,48,0,20,'Genitourinary Issues',9,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Hispanic,Female,'Over 60 years',Other,Emergency,3,InternalMedicine,27,1,17,Other,9,None,None,No,Ch,Yes,False,True,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Referral,6,Emergency/Trauma,42,0,23,'Respiratory Issues',9,None,None,Up,Ch,Yes,False,True,False,True,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,6,Other,29,1,13,Other,7,None,None,No,No,Yes,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,Missing,12,0,7,Other,9,None,None,No,No,No,True,False,True,True,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Emergency/Trauma,42,4,12,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,6,InternalMedicine,44,0,12,Other,5,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,8,Family/GeneralPractice,65,2,15,Other,9,None,Norm,Down,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,8,Other,1,0,17,Other,9,None,None,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,Missing,15,1,17,Other,4,None,None,No,Ch,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,56,0,11,'Respiratory Issues',5,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Referral,8,Missing,49,2,18,Other,5,None,None,No,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,4,Missing,50,1,10,Other,9,None,None,No,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,6,Other,43,0,21,Other,9,None,None,Steady,Ch,Yes,True,False,True,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,1,Missing,54,3,18,Other,9,None,Norm,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,4,Missing,56,1,17,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,3,Missing,41,0,9,Other,9,None,None,Steady,Ch,Yes,True,False,False,True,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,5,Missing,44,4,15,'Musculoskeletal Issues',9,None,Norm,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,37,2,19,Other,9,None,None,Up,Ch,Yes,False,True,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,6,Missing,34,4,16,Other,9,None,None,Steady,No,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years',Other,Other,2,Cardiology,52,3,14,Other,9,None,Norm,Steady,No,Yes,False,True,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,49,2,10,Other,9,None,>8,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,5,Missing,47,4,7,Other,6,None,Norm,No,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,8,Missing,1,4,24,Other,7,None,None,Up,Ch,Yes,True,False,True,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,InternalMedicine,46,1,25,'Respiratory Issues',7,None,None,No,No,No,True,False,True,True,True,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,5,InternalMedicine,50,0,18,Other,7,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,1,0,11,Other,7,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,2,Missing,42,1,10,Other,6,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,8,InternalMedicine,21,0,5,'Respiratory Issues',8,None,>8,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,2,Missing,43,4,18,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,True
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,8,InternalMedicine,50,3,17,Other,9,None,Norm,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,8,Other,36,0,12,'Respiratory Issues',7,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,2,Missing,37,0,14,'Respiratory Issues',4,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,6,Other,42,2,26,Other,9,None,>8,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,5,Missing,39,0,11,Diabetes,9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,1,Cardiology,61,2,20,Other,9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Referral,1,Family/GeneralPractice,1,0,13,Other,9,None,None,Steady,No,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'30-60 years',Other,Other,6,Missing,63,1,26,Other,8,None,>7,No,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,13,Missing,58,1,25,'Respiratory Issues',9,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,4,Missing,49,0,10,'Respiratory Issues',7,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,3,Other,30,2,9,Other,7,None,None,Steady,Ch,Yes,True,False,False,False,True,False
+Caucasian,Female,'30 years or younger',Other,Emergency,6,Missing,63,1,16,Other,9,None,Norm,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,5,Family/GeneralPractice,52,0,6,'Genitourinary Issues',9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,InternalMedicine,42,3,20,Other,8,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,8,InternalMedicine,57,1,11,Other,9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,6,Other,12,3,10,Other,6,Norm,None,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,2,Missing,64,1,11,Other,5,>200,>8,Steady,Ch,Yes,True,False,False,False,True,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,52,0,9,'Genitourinary Issues',9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,1,InternalMedicine,34,1,15,Other,9,None,None,Up,Ch,Yes,True,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,13,Missing,1,0,10,Other,6,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,5,Missing,22,0,12,Other,9,None,None,No,No,No,True,False,True,True,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Other,8,Other,53,0,11,Other,5,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Other,6,Missing,33,2,20,Other,9,None,None,Down,Ch,Yes,True,False,False,False,True,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,2,0,15,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Referral,2,Missing,30,0,9,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Other,1,Other,22,3,18,Other,9,>300,None,No,Ch,Yes,False,False,True,True,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,1,Missing,52,0,13,Diabetes,9,None,None,Up,Ch,Yes,False,False,False,False,False,True
+AfricanAmerican,Female,'30-60 years',Other,Emergency,6,Missing,50,0,12,Other,9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Referral,4,Missing,41,3,9,Other,9,None,None,No,No,No,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,5,Other,43,1,8,Other,7,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years',Other,Referral,5,Missing,48,0,12,'Respiratory Issues',7,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Other,53,2,7,Other,6,None,None,No,No,No,True,False,False,True,True,False
+Caucasian,Female,'Over 60 years',Other,Emergency,3,Missing,48,1,19,Other,9,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Other,5,Missing,54,3,22,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,3,Missing,52,0,23,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Emergency,2,Missing,51,3,16,Other,5,None,None,Steady,Ch,Yes,True,False,False,False,False,True
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Other,8,Missing,3,1,22,Other,9,None,>8,Down,Ch,Yes,True,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,6,Missing,47,1,23,Other,9,None,None,No,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Emergency/Trauma,44,1,22,Other,9,None,None,Down,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,9,Missing,37,1,24,Other,7,None,None,Down,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Emergency,1,Missing,37,0,11,Other,8,None,None,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,Cardiology,46,5,36,Other,9,None,None,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,6,Emergency/Trauma,30,4,12,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,InternalMedicine,42,0,10,Other,7,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,5,Other,38,2,11,Other,7,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Referral,3,Other,4,4,19,Other,7,None,None,Steady,No,Yes,False,True,False,False,False,False
+AfricanAmerican,Female,'30-60 years',Other,Referral,8,Missing,47,0,11,'Respiratory Issues',9,None,None,No,No,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,1,Other,1,0,13,Other,5,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,48,0,17,Diabetes,4,None,None,Up,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,3,Emergency/Trauma,54,3,14,Other,9,None,Norm,Up,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,14,0,8,Other,5,None,None,Steady,No,Yes,True,False,False,False,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,6,InternalMedicine,47,0,10,Other,6,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,2,Missing,29,0,8,'Respiratory Issues',4,Norm,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,5,Missing,48,2,10,Other,9,None,None,Steady,No,Yes,False,False,True,False,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,3,Other,1,0,7,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,True,False,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,2,Missing,46,6,18,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,8,Missing,57,0,9,Other,9,None,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Other,2,Emergency/Trauma,29,0,20,Other,9,None,>8,Down,Ch,Yes,False,True,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,Missing,42,3,11,Other,9,None,None,No,No,No,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,2,Missing,28,0,24,Other,9,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,8,Missing,15,2,12,Other,5,None,None,No,Ch,Yes,True,False,False,False,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,1,Cardiology,61,0,16,Diabetes,9,None,>8,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,8,Emergency/Trauma,27,6,10,Other,5,None,None,Up,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,2,Missing,49,0,11,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,8,Missing,45,1,20,Other,9,None,None,Down,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,10,Missing,65,0,16,'Genitourinary Issues',9,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Other,1,InternalMedicine,45,3,18,Other,6,None,None,No,Ch,Yes,False,False,True,True,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,3,Missing,27,0,17,Other,9,None,None,Steady,No,Yes,True,False,False,True,True,True
+Caucasian,Female,'Over 60 years',Other,Referral,8,Missing,59,1,17,'Musculoskeletal Issues',8,None,None,Up,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'30-60 years',Other,Emergency,8,Missing,50,1,14,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,True,False,True
+Hispanic,Male,'30-60 years',Other,Emergency,8,InternalMedicine,56,4,15,Other,6,>200,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Other,4,Missing,43,6,14,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Other,5,Family/GeneralPractice,58,0,21,'Respiratory Issues',9,None,Norm,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,13,Missing,1,1,14,Other,7,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Emergency,4,Missing,43,0,15,Diabetes,9,None,None,Steady,No,Yes,False,False,False,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,4,0,7,'Genitourinary Issues',6,None,Norm,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Other,2,Other,42,0,14,Other,5,None,None,Steady,No,No,False,False,False,True,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Other,5,Missing,44,2,22,Other,9,None,>8,No,No,No,False,True,False,False,True,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,Missing,26,2,17,Other,9,None,None,Steady,Ch,Yes,True,False,True,True,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,5,Missing,55,0,20,Other,6,None,None,Down,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,1,Missing,36,1,20,Other,9,None,None,Down,Ch,Yes,False,False,False,True,True,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Referral,8,Missing,47,1,15,Other,9,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Missing,58,0,10,'Genitourinary Issues',7,None,None,No,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,1,Missing,44,0,19,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,8,Missing,40,1,18,Other,5,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,InternalMedicine,59,0,20,'Genitourinary Issues',9,None,None,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,13,InternalMedicine,63,2,22,Other,4,None,None,Up,Ch,Yes,False,True,False,True,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,2,Missing,60,2,12,Other,9,None,None,Steady,No,Yes,True,False,False,True,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,8,Emergency/Trauma,53,0,11,Other,9,None,None,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,2,Missing,28,0,10,Diabetes,9,None,None,Steady,No,Yes,False,False,False,True,True,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,13,Missing,54,4,23,Other,5,None,Norm,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Family/GeneralPractice,35,0,15,Other,6,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,10,Missing,50,1,21,Other,9,None,None,Steady,No,Yes,False,False,True,True,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Other,6,Family/GeneralPractice,51,2,19,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Family/GeneralPractice,2,0,15,'Respiratory Issues',9,None,None,No,Ch,Yes,True,False,True,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,10,Missing,42,3,11,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Referral,2,Missing,35,4,23,Other,9,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Referral,2,Other,30,2,16,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,4,Cardiology,25,6,15,Other,9,None,>8,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years',Other,Referral,4,Missing,1,2,12,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,4,Missing,52,0,13,Other,9,None,Norm,No,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Referral,5,Other,55,0,19,'Genitourinary Issues',4,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,55,0,11,Other,7,None,None,No,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,Missing,49,1,9,Other,9,None,None,Steady,Ch,Yes,True,False,True,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,21,0,18,'Genitourinary Issues',9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Other,2,Other,59,1,21,Other,4,None,None,Steady,No,Yes,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,41,1,19,Other,9,None,>8,Steady,Ch,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years',Other,Referral,6,Missing,37,1,11,Other,4,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,8,Other,48,2,12,Other,4,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,4,Missing,42,0,21,Other,9,None,None,Steady,Ch,Yes,True,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Referral,8,InternalMedicine,49,0,14,Other,5,None,>8,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,6,Other,55,0,16,Diabetes,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,3,Missing,64,0,21,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,1,Missing,14,0,16,'Respiratory Issues',7,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,InternalMedicine,55,0,10,Other,9,None,>7,No,No,Yes,True,False,False,False,False,False
+Other,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,57,2,12,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Male,'Over 60 years',Other,Referral,6,InternalMedicine,57,0,7,Other,9,None,>7,No,No,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,InternalMedicine,43,0,15,Other,6,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,4,InternalMedicine,62,2,12,Other,9,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Other,3,Family/GeneralPractice,58,6,10,Other,9,None,>7,No,No,No,True,False,False,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,48,3,16,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,4,Other,48,1,27,Other,9,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,9,InternalMedicine,55,1,20,Other,9,None,None,Steady,No,Yes,True,False,False,True,False,True
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Referral,2,Other,40,6,13,Other,9,None,None,Down,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,6,Missing,41,0,16,'Genitourinary Issues',9,None,None,Steady,No,Yes,True,False,False,True,False,False
+AfricanAmerican,Female,'30-60 years',Other,Referral,8,Other,2,1,23,Diabetes,5,None,None,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,2,Missing,60,1,22,Other,9,None,None,No,No,No,False,False,True,True,True,True
+AfricanAmerican,Female,'30-60 years',Other,Emergency,8,Missing,48,2,15,Other,9,None,None,Steady,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Emergency,8,Cardiology,51,4,8,Other,9,None,None,Up,Ch,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,55,2,9,Other,5,None,None,No,No,No,True,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Referral,2,InternalMedicine,49,2,9,Other,9,None,None,No,No,No,False,False,False,False,True,True
+Caucasian,Female,'30 years or younger','Discharged to Home',Referral,2,Missing,1,1,19,Diabetes,6,None,None,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Other,54,2,12,Other,5,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Other,Female,'Over 60 years','Discharged to Home',Emergency,5,Emergency/Trauma,58,4,17,Other,8,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,6,Emergency/Trauma,37,5,19,Other,6,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,60,3,17,Other,9,None,None,No,No,No,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Family/GeneralPractice,44,0,6,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Other,6,Other,23,1,8,Other,9,>200,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,4,Missing,6,1,19,Other,9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,1,Missing,55,0,23,Other,8,None,Norm,No,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,3,Missing,28,6,20,Other,9,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,37,0,14,Other,9,None,None,No,No,No,False,False,False,True,True,False
+Caucasian,Female,'Over 60 years',Other,Emergency,3,Missing,48,1,10,Other,9,None,None,No,No,No,True,False,False,False,True,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,3,Cardiology,48,0,15,Other,9,None,>8,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,52,3,14,Other,9,None,None,No,No,No,True,False,False,False,True,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,5,Missing,38,3,23,Other,8,None,None,Steady,No,Yes,False,False,True,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,InternalMedicine,23,3,18,Other,5,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,3,Other,52,1,15,'Respiratory Issues',6,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,8,Missing,48,1,18,'Respiratory Issues',9,None,Norm,Steady,No,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,13,Missing,58,3,19,Other,9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Family/GeneralPractice,42,3,16,Other,9,None,None,Steady,No,No,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,3,0,12,'Respiratory Issues',7,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Emergency,8,Other,54,6,7,Other,5,None,>8,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Other,2,Family/GeneralPractice,48,1,12,Other,9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,2,Other,42,3,18,Other,5,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Emergency/Trauma,54,6,23,Other,7,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,3,Missing,29,6,12,Other,9,None,None,No,No,No,True,False,True,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,1,Missing,51,2,11,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Referral,3,Missing,36,1,20,'Musculoskeletal Issues',9,None,None,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,58,0,12,Other,7,None,None,No,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,48,1,21,'Respiratory Issues',8,None,Norm,Up,Ch,Yes,False,False,True,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,36,2,25,Other,9,None,>8,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Other,28,1,11,Other,9,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,1,Other,53,1,6,Other,7,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,6,InternalMedicine,55,0,18,'Respiratory Issues',9,None,None,No,No,No,False,False,False,False,True,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,3,Missing,47,0,14,'Respiratory Issues',9,None,None,Up,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,14,Missing,59,0,23,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Other,1,Other,22,6,13,Other,4,Norm,None,Steady,Ch,Yes,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Other,5,InternalMedicine,64,0,7,'Genitourinary Issues',9,Norm,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,6,Other,59,4,12,Other,9,None,>8,Steady,No,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,11,Missing,2,1,20,'Respiratory Issues',8,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Missing,47,0,22,Other,9,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,39,0,25,Other,9,None,None,Down,Ch,Yes,False,False,False,False,False,True
+AfricanAmerican,Female,'Over 60 years',Other,Referral,6,Other,50,3,21,Other,6,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30 years or younger','Discharged to Home',Referral,5,Missing,57,1,12,Other,2,None,>8,Up,Ch,Yes,False,False,False,False,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,3,Missing,53,3,6,Other,9,None,None,No,No,Yes,False,False,False,False,False,True
+Caucasian,Female,'30-60 years',Other,Referral,9,Missing,55,0,14,Other,9,None,None,Steady,No,Yes,False,False,False,True,True,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,19,0,13,Diabetes,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,8,Missing,10,0,11,'Respiratory Issues',5,None,Norm,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,Missing,36,0,20,Other,9,None,None,Steady,No,Yes,True,False,True,True,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,6,Family/GeneralPractice,38,0,11,'Respiratory Issues',5,None,None,No,No,No,True,False,False,True,False,False
+AfricanAmerican,Female,'30-60 years',Other,Other,6,Family/GeneralPractice,39,2,18,Other,9,None,None,Steady,No,Yes,True,False,False,True,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,9,Missing,58,1,19,'Respiratory Issues',9,None,Norm,Down,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,59,0,13,Other,9,None,None,No,Ch,Yes,True,False,False,False,False,True
+Caucasian,Female,'30-60 years',Other,Referral,2,Other,47,2,20,'Musculoskeletal Issues',9,None,None,Up,Ch,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,6,Other,41,0,22,Other,8,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Emergency,2,Family/GeneralPractice,25,0,6,Other,7,None,None,Steady,Ch,Yes,False,False,False,True,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,3,Other,40,0,9,Other,7,None,None,Steady,Ch,Yes,False,True,False,True,False,False
+Other,Female,'30-60 years','Discharged to Home',Emergency,2,Emergency/Trauma,52,0,8,'Genitourinary Issues',9,None,None,Up,Ch,Yes,False,True,True,True,False,True
+Hispanic,Male,'30-60 years','Discharged to Home',Emergency,1,Missing,50,0,8,Diabetes,9,None,>8,No,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Other,3,Other,38,0,6,Other,9,None,Norm,Steady,Ch,Yes,False,True,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,10,Family/GeneralPractice,58,0,13,Other,7,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,8,Other,66,3,20,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,8,Missing,26,2,21,Other,5,Norm,None,Up,Ch,Yes,False,False,False,True,True,False
+Caucasian,Female,'Over 60 years',Other,Emergency,3,InternalMedicine,45,0,24,Diabetes,9,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,1,Other,27,1,8,Other,5,Norm,None,No,No,Yes,True,False,False,False,True,False
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Emergency/Trauma,41,0,15,Other,9,None,>7,Steady,No,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,56,6,16,Other,9,None,None,Down,Ch,Yes,True,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Missing,54,0,19,Other,9,None,None,Steady,No,Yes,True,False,True,False,True,True
+Caucasian,Male,'Over 60 years',Other,Referral,1,Cardiology,53,0,9,Other,9,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years',Other,Other,1,Missing,52,0,7,Other,9,None,>7,Down,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'30 years or younger','Discharged to Home',Other,1,Other,69,0,19,Diabetes,9,>300,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,53,6,13,Other,5,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,6,Family/GeneralPractice,59,0,14,Other,9,None,Norm,Up,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,1,InternalMedicine,44,0,10,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,3,Family/GeneralPractice,60,0,6,Other,8,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,1,Missing,3,0,8,'Respiratory Issues',9,None,None,Steady,No,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,6,Missing,49,0,26,Other,9,None,>8,Down,Ch,Yes,True,False,False,False,True,False
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Referral,8,Missing,60,4,26,Other,9,None,Norm,No,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,6,Missing,39,4,21,Other,9,None,None,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Other,14,Missing,51,1,19,Other,6,None,Norm,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,6,Missing,52,0,13,Diabetes,7,None,None,Up,Ch,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,4,Missing,20,1,15,Other,9,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,6,Missing,41,6,20,Other,9,None,None,Steady,Ch,Yes,False,True,False,True,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,1,Family/GeneralPractice,1,1,10,Other,9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,1,Missing,36,2,17,Other,9,None,Norm,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Referral,8,InternalMedicine,52,0,15,'Respiratory Issues',5,None,None,No,Ch,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,6,InternalMedicine,53,0,10,'Respiratory Issues',9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,61,0,19,'Genitourinary Issues',9,None,None,Up,Ch,Yes,True,False,True,True,True,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,Missing,61,2,24,'Respiratory Issues',9,None,None,Up,Ch,Yes,False,True,False,False,True,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,8,Missing,3,6,17,Other,5,None,None,Steady,No,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,2,Missing,59,0,19,Diabetes,9,None,Norm,Down,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Other,1,Missing,29,0,19,Other,7,None,None,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,3,Missing,54,0,14,Other,9,None,None,Steady,Ch,Yes,False,False,True,True,False,False
+Caucasian,Female,'30-60 years',Other,Referral,3,Other,28,1,21,'Musculoskeletal Issues',9,None,None,Steady,Ch,Yes,False,False,False,False,True,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,8,InternalMedicine,58,6,40,Other,9,None,Norm,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Emergency,8,Missing,56,0,8,Other,7,None,None,No,No,No,True,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,40,0,20,Other,5,None,None,Steady,No,Yes,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,Missing,23,1,14,Other,9,None,None,Steady,Ch,Yes,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,3,Missing,49,0,10,Diabetes,6,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,Other,40,0,17,Other,9,None,None,No,No,No,False,False,True,True,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,2,InternalMedicine,4,6,16,Other,5,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Emergency,8,Family/GeneralPractice,44,4,11,Other,9,None,None,No,No,No,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Emergency/Trauma,60,0,19,'Genitourinary Issues',9,None,None,Up,Ch,Yes,False,False,False,True,False,True
+Caucasian,Male,'Over 60 years',Other,Referral,6,Missing,34,1,14,'Musculoskeletal Issues',9,None,None,No,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,44,0,16,Other,9,None,None,No,Ch,Yes,False,False,True,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,1,Missing,1,1,7,'Genitourinary Issues',9,None,None,No,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,5,Missing,41,1,22,Other,9,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Referral,5,Missing,54,5,26,Other,9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,1,Other,57,2,10,Other,9,None,None,No,No,Yes,True,False,False,False,False,True
+Caucasian,Female,'30-60 years',Other,Emergency,1,Missing,3,1,8,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,6,Missing,33,3,20,Other,9,None,None,No,Ch,Yes,True,False,False,False,False,True
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,10,Family/GeneralPractice,55,1,15,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,48,1,25,'Respiratory Issues',9,None,>7,Steady,Ch,Yes,True,False,True,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,4,Family/GeneralPractice,35,2,17,Other,9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,3,Missing,56,1,15,'Musculoskeletal Issues',9,None,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,8,Emergency/Trauma,53,3,22,Other,8,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,6,Missing,51,2,35,Other,9,None,None,Up,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,10,Cardiology,50,1,25,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,8,Cardiology,43,0,17,'Respiratory Issues',9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Other,1,Missing,52,0,6,Other,4,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,2,Family/GeneralPractice,56,3,8,Other,7,None,>8,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,4,Missing,19,1,17,Other,9,None,None,Steady,Ch,Yes,True,False,False,True,False,False
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Emergency,8,Missing,56,6,16,Other,7,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,2,Other,29,0,8,'Respiratory Issues',7,None,None,No,No,No,True,False,False,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,8,Other,53,6,18,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,3,Family/GeneralPractice,56,1,12,Other,9,None,>8,Down,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,6,Missing,40,0,22,Other,9,None,None,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Referral,5,Other,39,3,30,Other,7,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,8,Missing,4,0,16,Other,7,None,>7,Steady,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Cardiology,53,5,15,Other,7,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,Family/GeneralPractice,56,0,17,Other,6,None,None,No,Ch,Yes,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,3,Missing,51,0,11,Other,7,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Other,8,Missing,40,0,6,Diabetes,5,None,None,No,No,Yes,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,Emergency/Trauma,34,0,18,'Respiratory Issues',9,None,None,Down,Ch,Yes,True,False,False,False,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,4,Other,36,3,15,Other,9,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,3,Missing,38,2,12,Other,7,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,6,Missing,29,0,24,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,InternalMedicine,54,0,20,Other,7,None,None,Down,Ch,Yes,False,False,False,False,False,True
+AfricanAmerican,Female,'30-60 years',Other,Referral,9,Emergency/Trauma,55,0,19,Diabetes,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,1,InternalMedicine,38,0,12,Other,7,None,None,Steady,No,Yes,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,2,Missing,60,3,16,Other,9,None,None,Up,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,6,Cardiology,28,6,11,Other,5,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,8,Missing,55,2,12,'Genitourinary Issues',9,None,None,Up,Ch,Yes,False,False,True,True,True,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,50,0,18,'Genitourinary Issues',9,None,None,Up,Ch,Yes,False,False,False,False,False,False
+Hispanic,Female,'30-60 years','Discharged to Home',Emergency,1,Emergency/Trauma,41,0,12,Other,8,None,None,Down,Ch,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Referral,8,Missing,34,2,18,Other,9,None,None,Steady,No,No,True,False,False,True,True,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Cardiology,51,0,19,Other,6,None,None,Steady,No,Yes,True,False,False,False,False,True
+Caucasian,Female,'30-60 years',Other,Referral,6,Missing,49,0,19,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,31,1,9,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,8,InternalMedicine,48,0,15,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,True,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Other,2,Other,22,1,14,Other,2,None,None,Steady,No,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,5,Emergency/Trauma,43,0,22,Other,9,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,5,Missing,57,0,15,Other,9,None,None,Steady,No,Yes,False,False,True,False,True,False
+Hispanic,Female,'30-60 years','Discharged to Home',Emergency,2,Other,38,0,10,Diabetes,6,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,8,Family/GeneralPractice,33,0,11,Other,9,None,None,Down,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,14,InternalMedicine,51,0,18,Other,9,None,None,No,No,No,True,False,False,True,True,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,31,6,19,Other,9,None,None,No,No,No,True,False,True,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,3,Missing,60,1,12,Other,8,None,None,Steady,Ch,Yes,True,False,False,False,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,6,Missing,25,0,15,'Genitourinary Issues',8,None,None,Steady,No,Yes,True,False,True,False,False,False
+Caucasian,Male,'30-60 years',Other,Referral,9,Missing,63,1,18,Other,7,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Other,55,2,21,Other,6,None,None,No,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,30,1,7,Other,9,None,None,No,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,Missing,54,0,23,'Genitourinary Issues',8,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,2,Other,19,2,14,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,52,0,14,Diabetes,9,None,None,No,No,No,True,False,False,True,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,6,Other,60,6,42,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'30 years or younger','Discharged to Home',Referral,6,Missing,12,0,13,Other,2,None,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,4,Missing,40,0,16,Other,7,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,6,Missing,30,0,18,Other,5,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,2,Missing,60,3,21,Other,9,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,1,Missing,58,0,17,Other,7,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,2,Family/GeneralPractice,54,0,19,'Respiratory Issues',6,None,None,No,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years',Other,Referral,8,Other,32,2,15,Other,5,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,61,0,21,Other,9,None,None,No,No,No,True,False,False,False,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,5,Family/GeneralPractice,56,1,6,'Genitourinary Issues',9,None,None,No,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,4,InternalMedicine,57,0,20,Other,7,None,>8,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,3,Missing,42,3,24,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Emergency,5,Missing,50,2,10,Other,9,None,>8,Up,Ch,Yes,True,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,5,Other,50,2,11,Other,9,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,3,Family/GeneralPractice,41,0,8,'Respiratory Issues',9,None,>7,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,36,0,16,Diabetes,4,None,None,Steady,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Missing,29,0,14,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Emergency,1,Missing,32,1,9,'Respiratory Issues',5,None,Norm,No,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,5,Missing,56,0,15,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,36,0,12,Other,5,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,40,0,15,Diabetes,9,None,Norm,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,2,Other,16,0,9,Other,5,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Emergency/Trauma,59,0,18,'Respiratory Issues',9,None,>7,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,4,Missing,25,1,20,Other,9,Norm,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,2,Missing,27,5,18,Other,5,None,Norm,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,13,Other,2,2,12,'Respiratory Issues',6,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,5,Missing,40,0,18,Other,9,None,None,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Other,4,Other,27,4,8,Other,7,>200,None,Steady,No,Yes,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Referral,8,Missing,50,1,17,'Respiratory Issues',9,None,None,Steady,No,Yes,True,False,False,True,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,32,0,12,Other,9,None,Norm,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,41,0,8,Other,4,None,None,No,No,No,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,8,Missing,21,0,14,Diabetes,6,None,None,Down,Ch,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Missing,26,0,8,'Respiratory Issues',5,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,41,0,10,'Respiratory Issues',4,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,6,Missing,37,0,11,Other,6,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,10,Cardiology,57,0,10,Other,9,>300,None,Steady,Ch,Yes,True,False,False,True,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,5,Missing,21,1,12,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,4,Missing,53,1,10,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,6,Family/GeneralPractice,37,0,10,Other,9,None,None,No,No,No,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,Other,37,0,22,'Respiratory Issues',9,None,None,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,9,InternalMedicine,55,0,14,Other,9,None,None,No,Ch,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,2,Missing,57,0,10,'Respiratory Issues',5,None,None,No,No,No,True,False,False,True,False,True
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Emergency,1,Missing,1,0,14,Other,9,None,None,Steady,No,Yes,False,True,True,True,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Referral,2,Missing,1,2,10,Other,9,None,None,Steady,Ch,Yes,False,False,True,False,False,True
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Referral,1,Missing,2,1,15,Other,6,None,None,Steady,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,47,1,7,Other,9,None,None,No,No,Yes,False,False,True,True,True,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,9,Missing,2,0,13,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Referral,3,Missing,51,0,15,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,43,3,25,Other,8,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,46,1,12,Other,7,None,None,Steady,No,Yes,False,True,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,1,Missing,32,1,11,Other,6,None,>7,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,InternalMedicine,30,1,24,'Respiratory Issues',6,None,None,Steady,No,Yes,True,False,True,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,4,Missing,22,4,14,Other,9,None,None,Up,Ch,Yes,False,True,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,8,Missing,52,3,11,Other,4,None,None,Steady,Ch,Yes,True,False,False,False,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,2,Missing,48,2,11,Other,9,None,Norm,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,1,InternalMedicine,55,0,15,'Respiratory Issues',5,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,3,Missing,36,1,13,'Musculoskeletal Issues',9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,2,Other,40,0,16,Other,8,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,1,Missing,19,3,15,Other,6,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,1,Missing,42,1,20,Other,7,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,3,Family/GeneralPractice,38,0,10,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,3,Other,45,3,18,Other,9,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Emergency,8,Missing,1,4,12,Other,9,None,>7,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,5,Family/GeneralPractice,18,0,14,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,1,Missing,58,0,11,Other,9,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Emergency/Trauma,55,0,18,Other,9,None,None,Steady,No,Yes,False,False,True,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,8,Missing,1,2,6,Other,6,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,4,Missing,54,2,20,Other,9,None,None,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Referral,2,Other,43,0,7,'Respiratory Issues',5,None,None,Down,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,8,Other,40,6,7,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,1,Missing,48,0,14,Other,9,None,None,No,No,No,True,False,False,True,False,True
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,13,InternalMedicine,51,3,21,Other,4,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,4,Missing,45,0,12,Other,9,None,None,Up,Ch,Yes,True,False,True,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,56,1,23,Other,9,None,None,Up,Ch,Yes,False,True,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,44,1,13,'Respiratory Issues',5,None,None,Steady,No,Yes,False,False,False,False,False,True
+Caucasian,Male,'Over 60 years',Other,Other,1,InternalMedicine,40,0,13,Other,5,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,13,Missing,49,0,18,'Genitourinary Issues',8,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,3,Family/GeneralPractice,37,0,11,Other,9,None,None,No,Ch,Yes,True,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Referral,8,Missing,55,0,20,Other,5,None,None,Up,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Other,6,Missing,47,0,21,'Respiratory Issues',6,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Referral,8,Missing,50,0,8,Diabetes,5,None,None,Up,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,5,Other,59,0,12,Other,8,None,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,4,Missing,31,1,15,Other,7,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,1,Other,1,1,22,'Respiratory Issues',7,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,10,Other,48,6,40,Other,6,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,5,Missing,47,5,12,Other,9,None,>7,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Other,4,Missing,45,2,17,Other,6,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Referral,3,Other,19,6,18,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Male,'Over 60 years',Other,Referral,1,Other,38,1,12,Diabetes,9,None,None,No,No,No,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,58,4,17,Other,9,None,Norm,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,8,Other,31,0,16,Other,5,None,Norm,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,InternalMedicine,56,0,11,'Genitourinary Issues',9,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Referral,8,Other,45,3,22,Other,5,None,None,Down,Ch,Yes,True,False,False,False,False,True
+Caucasian,Male,'Over 60 years',Other,Referral,5,Cardiology,49,5,12,Other,9,None,None,No,No,No,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years',Other,Referral,8,Missing,14,2,31,Other,8,None,None,Steady,No,Yes,True,False,True,False,False,False
+AfricanAmerican,Male,'30-60 years',Other,Emergency,1,Missing,53,0,10,Diabetes,2,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,3,InternalMedicine,52,0,15,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,2,Other,51,0,8,Other,9,None,None,No,No,No,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,9,Missing,51,1,15,'Musculoskeletal Issues',9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,InternalMedicine,48,2,21,Other,9,None,Norm,Steady,No,Yes,True,False,True,True,False,False
+Caucasian,Female,'30-60 years',Other,Referral,5,Missing,56,1,12,Other,7,None,None,No,No,No,False,False,False,True,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,3,Emergency/Trauma,22,1,21,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,1,Missing,51,0,17,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Family/GeneralPractice,43,0,22,'Genitourinary Issues',7,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,10,Emergency/Trauma,49,0,24,Other,9,None,>7,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Other,7,Missing,20,1,9,Other,5,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,4,Missing,48,2,18,Other,7,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,8,Missing,55,0,15,Other,8,>200,None,Steady,No,Yes,False,False,True,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,InternalMedicine,59,1,17,'Respiratory Issues',8,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Other,8,InternalMedicine,43,1,8,Other,5,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Missing,55,0,20,Diabetes,5,None,>7,Steady,Ch,Yes,True,False,False,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,8,Missing,38,2,9,'Musculoskeletal Issues',6,None,None,No,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Other,6,Other,51,2,16,Other,9,None,>7,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,6,Other,40,4,35,Other,5,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Emergency/Trauma,51,2,9,Other,7,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,8,Missing,39,1,17,'Respiratory Issues',8,None,None,Steady,No,Yes,False,False,False,False,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,4,Missing,58,3,13,Other,9,None,None,Down,Ch,Yes,True,False,False,False,True,False
+Other,Female,'Over 60 years','Discharged to Home',Emergency,3,Missing,42,0,15,'Genitourinary Issues',9,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,Cardiology,58,0,17,Other,5,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,5,Cardiology,56,6,44,Other,9,None,None,No,No,No,True,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,4,InternalMedicine,57,3,19,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Male,'Over 60 years',Other,Emergency,1,Missing,35,0,15,Diabetes,9,None,None,Steady,No,No,True,False,True,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,1,Missing,47,0,18,Other,6,None,None,Steady,No,Yes,True,False,True,True,True,False
+Other,Female,'Over 60 years','Discharged to Home',Emergency,2,Missing,23,1,11,Other,9,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,1,Other,27,3,24,Other,6,None,None,Up,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Other,8,InternalMedicine,35,3,23,Other,9,None,None,No,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Other,6,Cardiology,56,0,10,Other,9,Norm,>7,No,No,No,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,1,Family/GeneralPractice,54,0,10,'Respiratory Issues',9,None,>8,Down,Ch,Yes,True,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,6,Missing,52,0,8,Other,4,None,None,Steady,No,Yes,False,False,False,True,False,True
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Referral,6,Other,52,0,10,Other,9,None,None,No,No,Yes,False,False,True,True,True,True
+Caucasian,Female,'Over 60 years',Other,Referral,1,Missing,29,1,12,Other,9,None,None,No,No,No,True,False,False,True,False,True
+Hispanic,Male,'30-60 years','Discharged to Home',Emergency,8,Missing,40,2,25,Other,9,None,>8,Down,Ch,Yes,False,False,True,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,Emergency/Trauma,43,5,17,Other,9,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,4,Other,39,0,22,Other,7,None,None,Steady,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,2,InternalMedicine,57,2,14,Other,9,None,>8,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,3,InternalMedicine,57,0,15,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,8,Missing,1,0,20,'Respiratory Issues',9,None,None,Steady,No,Yes,True,False,False,True,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,2,Family/GeneralPractice,60,2,9,'Respiratory Issues',8,None,None,Steady,No,Yes,True,False,False,False,False,True
+Caucasian,Male,'30-60 years',Other,Emergency,8,Missing,2,0,15,Other,5,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,4,Missing,52,0,14,Diabetes,8,None,None,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Other,5,Other,18,0,12,Other,9,None,None,No,Ch,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,5,Family/GeneralPractice,19,0,18,Other,6,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,5,Emergency/Trauma,48,2,13,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Referral,6,Family/GeneralPractice,24,2,16,Diabetes,9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,6,Missing,55,0,20,'Respiratory Issues',7,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Referral,3,Missing,17,6,20,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,13,Missing,57,2,19,Other,9,None,None,No,Ch,Yes,False,False,False,False,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Missing,38,0,10,Other,9,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,6,Emergency/Trauma,30,0,19,Other,9,None,None,Down,Ch,Yes,True,False,False,True,True,False
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Emergency,8,Missing,51,0,10,Other,9,None,None,Steady,Ch,Yes,False,False,True,False,True,False
+Caucasian,Female,'Over 60 years',Other,Other,5,Missing,15,2,24,'Musculoskeletal Issues',7,Norm,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,6,Missing,38,0,12,'Respiratory Issues',6,None,>7,No,Ch,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,Other,50,0,22,Other,9,None,Norm,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,Missing,3,0,9,Other,4,None,None,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Other,2,Cardiology,35,0,7,Other,7,None,>8,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,32,0,17,Other,9,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,4,Family/GeneralPractice,46,1,18,'Respiratory Issues',6,None,None,No,No,No,True,False,False,False,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Other,4,Other,50,1,21,Other,5,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,1,InternalMedicine,36,2,15,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,Other,57,1,15,Other,9,None,Norm,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Other,46,0,17,Other,9,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,8,Missing,4,0,9,Other,7,None,>8,No,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,6,Other,53,5,36,Other,9,None,None,Down,Ch,Yes,False,False,False,True,False,False
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Referral,6,Other,22,4,10,Other,7,None,None,No,No,No,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,4,Other,41,2,14,Other,9,None,None,Steady,Ch,Yes,False,True,False,True,True,False
+AfricanAmerican,Male,'30-60 years',Other,Referral,5,Other,48,2,8,'Respiratory Issues',9,None,None,No,No,No,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,6,Missing,40,0,16,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,8,Emergency/Trauma,55,0,12,'Respiratory Issues',5,None,>7,Down,Ch,Yes,False,False,True,True,False,False
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Emergency,1,InternalMedicine,37,0,12,'Respiratory Issues',6,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,50,0,11,Other,6,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Emergency,6,Missing,40,6,15,Other,5,None,>7,Steady,No,No,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,8,Emergency/Trauma,49,0,23,Other,9,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,4,Missing,58,2,15,Other,9,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,4,Family/GeneralPractice,31,1,12,'Respiratory Issues',8,None,None,No,No,No,False,False,False,True,False,True
+AfricanAmerican,Female,'30-60 years',Other,Referral,2,Missing,45,1,26,Other,9,None,>8,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Other,4,Missing,34,4,16,Other,9,None,None,Steady,No,Yes,False,True,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,6,Missing,36,2,20,'Respiratory Issues',4,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,3,Missing,43,5,11,Other,9,None,None,No,No,Yes,False,False,False,True,True,True
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,2,Missing,28,1,15,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,3,Family/GeneralPractice,21,1,12,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,42,0,15,Diabetes,9,None,None,Down,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Family/GeneralPractice,53,0,16,Other,7,None,>7,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Emergency/Trauma,57,0,24,'Respiratory Issues',9,None,None,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,4,Missing,45,0,14,Other,7,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Other,1,InternalMedicine,39,4,6,Other,5,None,None,No,No,Yes,True,False,False,False,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,8,Missing,61,0,19,Diabetes,9,None,None,Up,Ch,Yes,False,False,False,True,True,True
+Caucasian,Female,'30-60 years',Other,Referral,3,Family/GeneralPractice,32,0,20,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,1,Missing,45,2,13,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,True,False,True,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,2,1,19,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,5,Family/GeneralPractice,48,0,15,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Emergency,8,Cardiology,37,6,24,Other,8,None,None,Down,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Other,5,Missing,48,0,25,Other,9,None,None,Steady,Ch,Yes,True,False,False,True,False,True
+Caucasian,Female,'30 years or younger',Other,Other,8,Missing,23,0,13,Other,9,Norm,None,Steady,No,Yes,False,False,False,False,True,False
+Caucasian,Male,'30-60 years',Other,Emergency,8,Other,36,6,21,Other,9,None,None,No,No,No,True,False,False,False,True,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,3,Missing,51,0,17,Other,9,None,None,Steady,No,No,True,False,False,False,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Referral,1,Missing,33,1,9,Other,7,None,None,No,No,Yes,False,False,False,False,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,2,Other,1,4,12,Other,6,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Emergency,1,InternalMedicine,53,0,18,Other,7,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,1,Missing,40,1,10,Other,5,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Emergency,4,InternalMedicine,57,1,17,Other,9,None,Norm,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,56,1,22,Other,9,None,Norm,No,No,Yes,True,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Emergency/Trauma,19,0,8,Other,9,None,Norm,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,3,Missing,52,0,13,Other,9,None,None,No,Ch,Yes,False,False,False,False,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,6,Missing,20,5,17,Other,9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Emergency/Trauma,25,1,13,Other,9,None,None,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,8,InternalMedicine,42,2,11,Other,4,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,36,1,18,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,8,Missing,40,6,26,Other,9,None,None,Up,Ch,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,6,Family/GeneralPractice,52,0,8,'Respiratory Issues',9,None,>7,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,45,3,13,Other,9,None,None,Steady,No,Yes,False,False,True,False,False,True
+Caucasian,Female,'Over 60 years',Other,Other,3,Missing,34,0,14,Other,6,Norm,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,3,Missing,30,0,17,Other,9,None,None,Steady,No,Yes,False,False,False,True,False,True
+AfricanAmerican,Female,'30 years or younger',Other,Emergency,1,Missing,50,1,11,Diabetes,5,None,None,Up,Ch,Yes,False,False,True,False,False,True
+Caucasian,Female,'Over 60 years',Other,Other,4,Missing,41,0,11,Other,9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,6,Missing,47,2,18,Other,8,None,None,Steady,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,5,Missing,52,5,18,Other,7,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,6,Missing,32,0,15,Other,9,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,2,InternalMedicine,18,0,20,'Respiratory Issues',9,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,3,Other,51,0,15,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years',Other,Emergency,1,Missing,30,0,13,'Respiratory Issues',5,None,None,Down,Ch,Yes,True,False,False,False,False,True
+AfricanAmerican,Female,'30-60 years',Other,Other,6,Other,51,2,16,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,51,3,18,Other,4,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,3,Other,45,2,15,Other,9,None,Norm,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Family/GeneralPractice,41,0,20,Other,9,None,None,No,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Emergency,8,Other,15,0,7,Other,5,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,8,Missing,47,2,10,Other,9,None,None,No,No,Yes,True,False,False,True,True,True
+Caucasian,Female,'Over 60 years',Other,Referral,2,Missing,35,1,9,'Respiratory Issues',9,None,None,Down,Ch,Yes,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,InternalMedicine,43,0,10,Other,5,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,5,Cardiology,42,6,18,Other,6,None,None,Steady,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,9,Missing,62,4,36,Other,9,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,6,InternalMedicine,34,0,8,Other,8,None,>8,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,5,Family/GeneralPractice,37,0,19,'Respiratory Issues',9,None,None,Down,Ch,Yes,False,False,True,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Other,7,Family/GeneralPractice,12,0,9,'Respiratory Issues',5,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,5,Family/GeneralPractice,59,0,13,'Respiratory Issues',9,None,None,Steady,No,Yes,True,False,False,False,False,False
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Referral,8,InternalMedicine,27,4,6,Other,5,None,None,Steady,No,Yes,False,False,False,False,False,True
+AfricanAmerican,Female,'30-60 years',Other,Emergency,5,Other,47,1,12,Other,7,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,53,0,21,Other,7,None,None,No,No,No,True,False,True,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,1,Family/GeneralPractice,19,6,11,Other,6,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,2,Missing,1,3,15,Other,9,None,None,No,No,No,False,False,False,True,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Referral,4,InternalMedicine,45,0,11,Other,9,None,Norm,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,8,Missing,56,1,14,Other,9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Male,'30-60 years',Other,Emergency,6,Missing,45,1,32,'Respiratory Issues',9,None,None,Down,Ch,Yes,True,False,False,True,False,True
+Caucasian,Male,'Over 60 years',Other,Emergency,3,Missing,53,4,13,Other,6,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,InternalMedicine,32,0,24,Other,9,None,>7,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,1,Cardiology,45,6,5,Other,5,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,4,Missing,57,1,16,Other,9,None,None,Down,Ch,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Referral,1,InternalMedicine,39,0,11,'Respiratory Issues',5,None,None,Steady,No,No,False,False,False,False,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,8,Family/GeneralPractice,32,2,11,Other,4,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,4,Other,18,3,15,'Musculoskeletal Issues',6,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,52,2,22,Other,9,None,None,Steady,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,60,3,17,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,10,Missing,64,0,19,'Respiratory Issues',9,None,None,No,Ch,Yes,True,False,False,False,True,False
+Caucasian,Male,'Over 60 years',Other,Emergency,5,Missing,52,4,17,Other,6,None,None,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,1,Other,49,0,14,Other,4,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,10,Missing,59,2,24,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,1,1,22,'Respiratory Issues',5,None,None,Steady,Ch,Yes,True,False,False,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,5,Emergency/Trauma,59,1,13,Other,9,None,>8,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,3,InternalMedicine,53,4,11,Other,9,None,None,No,No,Yes,True,False,False,False,False,True
+AfricanAmerican,Female,'Over 60 years',Other,Referral,1,Missing,30,1,19,Other,7,None,None,Steady,Ch,Yes,True,False,True,False,True,True
+Caucasian,Female,'Over 60 years',Other,Referral,3,Missing,61,1,18,Other,9,None,None,No,No,No,True,False,False,False,True,False
+Caucasian,Male,'Over 60 years',Other,Emergency,1,Missing,2,1,9,Other,4,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,6,Other,46,3,33,Other,9,None,None,Up,Ch,Yes,False,True,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Other,3,Missing,27,1,14,Other,9,None,None,No,No,No,False,False,False,True,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,54,3,25,Other,9,None,>7,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,6,Other,50,0,18,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,6,Emergency/Trauma,58,0,22,Other,9,None,>7,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,2,InternalMedicine,36,1,8,Other,6,Norm,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,5,Missing,30,0,14,Other,6,None,None,No,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Referral,5,Missing,37,3,15,Other,5,None,None,Steady,No,Yes,False,False,False,True,True,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,8,Missing,41,0,12,Other,5,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Emergency,6,Emergency/Trauma,57,2,8,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,True,False
+Caucasian,Female,'Over 60 years',Other,Referral,6,Other,40,0,11,'Genitourinary Issues',7,None,None,No,No,No,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Other,29,3,27,Other,6,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Other,6,Cardiology,55,0,17,'Genitourinary Issues',7,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,2,Missing,30,0,19,Diabetes,9,None,None,Steady,No,Yes,False,False,False,False,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,5,Missing,52,2,16,Other,7,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Male,'Over 60 years','Discharged to Home',Emergency,8,Missing,32,4,10,Other,6,None,None,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,5,InternalMedicine,54,0,16,Other,7,None,None,Steady,No,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,2,Family/GeneralPractice,52,1,8,Other,4,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,Emergency/Trauma,2,0,11,Other,6,None,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,9,Other,53,2,18,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,5,Missing,40,0,13,Other,9,None,None,Steady,No,Yes,False,False,False,True,False,True
+Caucasian,Male,'Over 60 years',Other,Other,4,InternalMedicine,44,0,9,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,True
+AfricanAmerican,Female,'Over 60 years',Other,Referral,1,Missing,47,2,19,Other,5,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Other,3,Missing,30,1,14,Other,8,None,None,Steady,No,Yes,False,False,False,False,False,False
+Other,Female,'Over 60 years','Discharged to Home',Emergency,5,Missing,55,1,16,Other,8,None,None,Up,Ch,Yes,False,False,True,False,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,1,Other,31,6,16,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Male,'30-60 years',Other,Emergency,1,Missing,8,0,9,Other,7,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,8,Missing,57,1,20,Other,5,None,None,Down,Ch,Yes,True,False,False,False,False,True
+AfricanAmerican,Female,'30-60 years',Other,Referral,6,Missing,51,2,19,Other,9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,55,2,21,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Hispanic,Male,'30-60 years',Other,Emergency,1,Missing,49,0,11,Other,5,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,8,Other,24,0,19,'Musculoskeletal Issues',5,None,None,Steady,No,Yes,False,False,False,True,False,True
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,52,1,17,Other,6,None,>7,No,No,No,True,False,True,True,True,False
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Missing,55,1,12,'Respiratory Issues',9,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Other,2,Missing,4,0,10,Diabetes,9,None,None,No,No,No,False,False,False,True,False,True
+AfricanAmerican,Male,'Over 60 years',Other,Emergency,1,Missing,28,1,9,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Other,2,Family/GeneralPractice,21,1,12,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,4,InternalMedicine,59,4,15,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,53,1,16,Other,9,None,>7,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,8,Cardiology,55,6,7,Other,6,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,5,Missing,42,1,18,Other,9,None,>7,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Cardiology,57,0,15,Other,9,None,None,Up,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Referral,10,Emergency/Trauma,53,2,8,Other,4,None,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,2,Other,41,0,9,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,5,Missing,42,2,25,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,2,Missing,50,0,9,Other,9,None,None,Steady,No,Yes,True,False,False,True,False,True
+Caucasian,Male,'30-60 years',Other,Referral,10,Family/GeneralPractice,56,1,14,Diabetes,8,None,None,No,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,10,Missing,54,0,15,'Respiratory Issues',9,None,None,Down,Ch,Yes,True,False,False,False,True,False
+Caucasian,Female,'30-60 years',Other,Referral,6,Missing,19,0,21,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,6,Missing,37,0,13,Diabetes,9,None,None,No,No,No,True,False,False,True,False,False
+Caucasian,Male,'30-60 years',Other,Emergency,3,Emergency/Trauma,43,0,11,Other,9,None,None,No,No,Yes,True,False,True,True,True,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Other,57,2,15,Other,9,None,None,Down,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,5,InternalMedicine,55,1,10,Other,9,None,>8,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,InternalMedicine,34,2,10,'Respiratory Issues',8,None,None,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,51,2,15,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,1,Missing,30,0,9,Other,5,None,None,Steady,No,Yes,True,False,False,False,False,False
+Hispanic,Female,'30-60 years',Other,Emergency,6,Emergency/Trauma,33,0,13,Diabetes,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,3,Missing,2,0,10,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,1,Other,1,0,11,Other,4,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,9,Family/GeneralPractice,2,0,15,Other,6,None,None,Down,Ch,Yes,True,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,13,Missing,55,0,20,Other,9,None,None,No,No,No,False,True,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,8,Missing,59,2,20,'Respiratory Issues',9,None,>8,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Other,6,Other,58,0,10,'Genitourinary Issues',9,None,None,Up,Ch,Yes,False,False,False,False,True,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,1,Missing,36,3,13,Other,9,None,>7,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,11,6,11,Other,9,None,None,No,No,No,True,False,True,True,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,8,Other,43,3,22,Other,5,None,None,No,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,2,Missing,2,1,8,Other,9,None,None,No,No,No,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,2,Missing,55,1,16,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,2,Family/GeneralPractice,57,6,10,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years',Other,Other,5,Family/GeneralPractice,44,1,22,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Referral,1,Missing,20,2,11,Other,8,None,None,No,No,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Referral,8,Other,47,2,24,'Musculoskeletal Issues',8,None,>8,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,5,Missing,57,6,48,Other,9,None,Norm,Up,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Referral,2,Missing,24,0,12,Other,5,None,None,No,Ch,Yes,True,False,False,True,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,9,Other,53,4,17,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,8,Emergency/Trauma,54,1,9,Other,9,None,None,No,No,Yes,False,False,True,True,False,True
+Caucasian,Female,'Over 60 years',Other,Referral,8,Family/GeneralPractice,57,6,14,Other,9,None,Norm,Steady,Ch,Yes,True,False,False,False,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Cardiology,30,0,12,'Respiratory Issues',9,None,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,5,Missing,52,0,15,Diabetes,7,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Referral,14,Missing,56,0,21,'Respiratory Issues',9,None,>7,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,8,Missing,40,0,13,'Respiratory Issues',6,None,None,No,No,No,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,2,Missing,28,3,22,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,3,Missing,38,1,14,Other,7,None,None,No,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30 years or younger','Discharged to Home',Referral,8,Other,47,0,7,Other,5,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Other,55,0,7,Other,4,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,10,Family/GeneralPractice,43,0,15,'Respiratory Issues',7,None,None,Up,Ch,Yes,True,False,False,True,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,13,Missing,56,1,8,Other,9,None,None,Steady,No,Yes,False,False,False,True,False,False
+Other,Male,'Over 60 years','Discharged to Home',Emergency,1,Missing,46,0,7,Other,9,None,None,Up,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Emergency/Trauma,1,0,9,'Respiratory Issues',9,None,None,Steady,No,Yes,False,True,True,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,Missing,52,0,11,Other,9,None,None,Steady,No,Yes,True,False,True,False,False,True
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,1,InternalMedicine,39,0,11,Other,7,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,6,Other,30,0,16,'Respiratory Issues',7,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,2,Cardiology,40,4,14,Other,5,None,None,No,No,No,True,False,False,True,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,1,Other,35,0,10,Other,7,None,None,No,No,No,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,4,Family/GeneralPractice,44,2,18,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,10,Family/GeneralPractice,61,0,19,Other,5,None,None,Down,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years',Other,Emergency,8,Other,46,3,11,Other,5,None,None,Steady,Ch,Yes,True,False,False,True,False,True
+Caucasian,Male,'Over 60 years',Other,Referral,4,Missing,34,2,22,'Musculoskeletal Issues',9,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Emergency,1,Missing,31,0,18,'Respiratory Issues',8,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,27,2,19,Other,6,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,38,0,14,Other,9,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,2,Missing,55,0,14,Diabetes,4,None,None,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,49,1,18,Other,7,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,2,Other,39,0,10,Other,4,None,None,No,No,No,False,False,False,False,True,False
+Other,Female,'30-60 years','Discharged to Home',Emergency,2,Missing,45,1,20,Diabetes,9,None,Norm,Down,Ch,Yes,False,False,False,False,True,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,5,InternalMedicine,55,0,26,'Genitourinary Issues',9,None,None,Up,Ch,Yes,True,False,False,False,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,6,Missing,42,2,7,Other,6,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,19,2,19,'Respiratory Issues',6,None,None,No,No,No,True,False,False,False,False,False
+Hispanic,Female,'30 years or younger','Discharged to Home',Emergency,2,Missing,2,0,18,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,10,Missing,51,0,9,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,1,Other,34,0,9,Other,9,None,None,No,No,No,False,False,False,True,True,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,9,Other,58,0,10,Other,9,None,>7,Steady,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,10,Missing,54,1,22,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,True,True,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Emergency,3,InternalMedicine,55,1,11,Other,9,None,>8,Steady,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,2,InternalMedicine,56,0,14,Other,9,None,Norm,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,63,0,16,Other,9,None,None,No,No,No,False,False,False,True,False,False
+AfricanAmerican,Female,'30-60 years',Other,Emergency,1,Missing,54,3,20,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,43,3,29,Other,9,None,None,Steady,Ch,Yes,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,10,Missing,9,0,9,Other,9,None,None,No,No,Yes,False,False,True,False,False,True
+Caucasian,Male,'30 years or younger','Discharged to Home',Other,1,Missing,46,2,9,Other,8,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Other,13,Other,61,1,15,'Respiratory Issues',9,None,Norm,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,13,Other,55,1,18,Other,4,None,None,No,No,No,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Other,57,4,21,Other,5,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,8,Missing,2,0,14,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,3,Missing,37,6,11,Other,9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,3,Missing,44,0,13,Other,4,None,None,No,No,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,2,Family/GeneralPractice,2,4,15,Other,9,None,None,No,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,2,Missing,50,1,13,Other,9,None,None,Down,Ch,Yes,False,False,True,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,4,Missing,13,0,11,Other,9,None,None,No,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Referral,8,Missing,2,1,16,Other,5,None,Norm,Down,Ch,Yes,False,False,False,True,True,False
+Caucasian,Female,'30-60 years','Discharged to Home',Other,10,Missing,51,3,12,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'30 years or younger',Other,Other,6,Other,38,0,13,Other,4,None,None,No,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,53,3,13,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,8,Missing,54,0,16,'Respiratory Issues',9,None,>8,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,3,Missing,48,0,18,Other,7,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,3,Emergency/Trauma,32,0,8,Other,8,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,5,Missing,55,0,18,Other,8,None,>8,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,8,Missing,61,0,12,'Respiratory Issues',4,None,None,Steady,No,Yes,False,True,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Other,6,Missing,55,0,17,'Respiratory Issues',4,None,None,Steady,Ch,Yes,True,False,True,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Other,53,0,14,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,3,Missing,32,0,13,Other,6,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Emergency/Trauma,62,0,17,Other,9,None,None,Up,Ch,Yes,True,False,False,True,True,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,9,Missing,62,2,13,'Respiratory Issues',9,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,InternalMedicine,48,0,9,'Genitourinary Issues',9,None,None,No,No,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,3,Missing,40,0,12,Other,8,None,None,No,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years',Other,Emergency,8,Other,56,1,24,Other,9,None,Norm,Steady,No,Yes,False,False,False,False,False,False
+AfricanAmerican,Male,'30-60 years',Other,Referral,1,Family/GeneralPractice,39,1,9,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,44,0,21,'Respiratory Issues',9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,1,Cardiology,25,0,11,'Respiratory Issues',5,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,39,0,14,Diabetes,9,None,None,Up,Ch,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years',Other,Emergency,4,Missing,52,1,17,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,6,Other,38,2,16,'Respiratory Issues',9,None,None,Steady,No,Yes,True,False,True,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,8,Missing,35,1,13,Other,5,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,6,Missing,26,1,16,'Respiratory Issues',7,None,Norm,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,9,InternalMedicine,60,2,17,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Emergency/Trauma,53,1,25,Other,6,None,None,Down,Ch,Yes,True,False,True,True,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,10,Missing,49,3,9,Other,8,None,None,No,No,No,False,False,False,False,False,False
+Hispanic,Female,'Over 60 years','Discharged to Home',Emergency,7,Missing,36,0,20,Other,8,None,>8,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Other,1,Missing,49,0,17,Other,4,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,5,Missing,50,0,25,Other,4,None,None,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,8,Other,56,0,14,'Respiratory Issues',5,None,None,Steady,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,9,Missing,52,0,16,Other,7,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Male,'30-60 years',Other,Emergency,14,Emergency/Trauma,53,3,10,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,1,Missing,15,0,11,Other,9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,4,Other,37,0,12,Other,9,None,None,Down,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,10,Other,55,3,20,Other,9,None,>8,Steady,Ch,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,1,Other,15,1,5,Other,6,None,None,No,No,No,True,False,False,False,False,True
+Caucasian,Female,'30 years or younger',Other,Emergency,8,Missing,51,4,21,Other,9,None,None,Down,Ch,Yes,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,3,Missing,51,0,14,'Respiratory Issues',9,None,None,Down,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,2,Missing,36,1,5,Other,7,None,>7,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,1,0,20,Other,9,None,None,Steady,Ch,Yes,True,False,True,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,8,InternalMedicine,55,0,9,Other,9,None,None,Steady,No,Yes,True,False,False,True,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,InternalMedicine,40,0,8,Other,9,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,4,Missing,38,2,19,Other,8,None,None,Steady,No,Yes,False,False,False,True,False,True
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,8,InternalMedicine,46,1,14,'Respiratory Issues',7,None,None,Steady,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Other,15,2,21,Other,8,None,None,Down,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Other,6,Cardiology,64,2,25,Other,8,None,None,No,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,4,Family/GeneralPractice,46,3,20,Other,9,None,Norm,No,No,No,False,False,True,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,1,Cardiology,45,0,8,Other,7,None,None,Steady,Ch,Yes,True,False,False,True,False,False
+AfricanAmerican,Female,'30-60 years',Other,Referral,2,Other,2,1,16,Other,9,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,1,Cardiology,4,3,12,Other,6,None,>7,No,No,No,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Missing,5,0,14,Other,5,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,4,Other,20,1,16,Other,8,None,None,Steady,Ch,Yes,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Referral,9,Family/GeneralPractice,57,1,16,Other,7,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Other,4,Other,40,0,13,Other,7,None,None,Steady,No,Yes,False,False,False,True,False,True
+AfricanAmerican,Female,'Over 60 years',Other,Referral,4,Other,35,2,17,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,8,Emergency/Trauma,2,0,11,Other,4,None,None,Down,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,5,Missing,49,3,21,Other,9,None,None,No,No,No,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Referral,6,Missing,38,1,11,Other,9,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,2,Missing,45,6,19,Other,7,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,Family/GeneralPractice,58,0,16,'Genitourinary Issues',9,None,None,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,5,Missing,57,0,20,'Respiratory Issues',9,None,None,No,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,6,Missing,30,4,16,Other,7,None,None,Up,Ch,Yes,False,True,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Other,2,Missing,44,0,13,Other,9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,8,Other,1,1,9,Other,5,None,None,No,No,Yes,False,False,False,False,False,False
+Other,Male,'Over 60 years','Discharged to Home',Emergency,1,Missing,33,2,15,'Respiratory Issues',9,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,20,0,8,Other,7,None,None,Steady,Ch,Yes,True,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,5,Missing,49,2,17,Other,8,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,6,Missing,19,0,10,'Genitourinary Issues',8,None,None,Steady,No,Yes,False,False,False,False,False,True
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Referral,2,Other,42,1,10,Other,8,None,None,Steady,Ch,Yes,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Missing,3,0,10,Other,6,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Other,2,Cardiology,56,6,17,Other,7,None,>8,Steady,No,No,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,5,Other,35,0,14,Other,9,None,>7,No,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Other,2,Missing,1,1,11,Other,9,None,None,Steady,No,No,False,True,False,False,True,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,8,Other,35,0,15,'Respiratory Issues',4,None,None,No,Ch,Yes,False,False,False,False,False,True
+Caucasian,Female,'30 years or younger','Discharged to Home',Other,2,Family/GeneralPractice,49,0,10,Other,7,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,3,Family/GeneralPractice,23,0,17,Diabetes,9,None,None,Steady,No,No,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Other,1,Missing,50,1,16,Other,9,None,None,No,Ch,Yes,True,False,False,True,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,4,InternalMedicine,52,0,18,'Respiratory Issues',7,None,None,Steady,Ch,Yes,True,False,True,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,6,Missing,29,2,17,Other,7,>200,None,Steady,Ch,Yes,True,False,True,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Other,6,InternalMedicine,28,0,15,Other,9,Norm,None,Up,Ch,Yes,False,False,True,False,True,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,10,Missing,50,4,15,Other,9,None,None,Down,Ch,Yes,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,Other,46,2,9,Other,6,None,None,No,No,Yes,True,False,False,True,False,False
+Caucasian,Male,'30-60 years','Discharged to Home',Referral,5,Missing,47,4,49,Other,9,None,>8,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,5,Other,44,0,16,Other,9,None,None,Down,Ch,Yes,True,False,False,True,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Family/GeneralPractice,53,3,16,Other,9,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,Missing,56,0,12,Other,9,None,None,No,No,No,True,False,False,True,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,8,Missing,23,1,21,'Musculoskeletal Issues',9,None,None,Down,Ch,Yes,True,False,True,True,True,False
+Caucasian,Male,'30-60 years','Discharged to Home',Emergency,8,Missing,41,0,10,Diabetes,5,None,Norm,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,InternalMedicine,39,0,7,Other,5,None,None,No,No,No,False,False,False,False,False,False
+Hispanic,Male,'Over 60 years','Discharged to Home',Emergency,2,Missing,47,1,8,'Respiratory Issues',7,None,>7,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'30 years or younger','Discharged to Home',Other,3,Other,44,1,8,Diabetes,9,None,None,Down,Ch,Yes,False,True,False,True,True,True
+Hispanic,Female,'30-60 years',Other,Emergency,5,Missing,3,0,20,Other,9,None,None,No,No,No,False,False,True,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Other,2,Missing,25,0,10,Other,5,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,50,2,13,Other,9,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,2,Missing,37,0,15,Other,9,None,None,Steady,Ch,Yes,False,False,False,False,False,True
+AfricanAmerican,Female,'Over 60 years',Other,Other,3,Missing,49,2,23,Other,9,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,6,Missing,28,6,22,Other,9,None,None,Steady,No,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,6,Missing,39,0,16,'Genitourinary Issues',9,None,Norm,No,No,No,True,False,True,True,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,4,Missing,57,1,7,'Respiratory Issues',9,None,None,No,No,No,False,False,False,False,True,False
+Caucasian,Female,'Over 60 years',Other,Other,6,Missing,51,0,10,'Respiratory Issues',8,>300,None,No,No,No,False,False,False,True,False,True
+Caucasian,Female,'30-60 years',Other,Referral,2,InternalMedicine,38,0,15,Diabetes,6,Norm,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Missing,58,0,8,Other,7,None,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,45,0,11,'Genitourinary Issues',9,None,None,Down,Ch,Yes,False,False,True,True,False,True
+Caucasian,Male,'30-60 years',Other,Emergency,5,Missing,37,0,11,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,4,Cardiology,43,2,11,Other,6,None,None,No,No,No,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,6,Other,37,1,20,Other,5,None,None,Steady,No,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Referral,1,Family/GeneralPractice,2,1,12,'Genitourinary Issues',9,None,None,No,No,No,False,False,False,False,True,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,1,Emergency/Trauma,42,0,7,Diabetes,9,None,Norm,Up,Ch,Yes,True,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,4,InternalMedicine,38,0,16,Other,9,None,None,Steady,No,Yes,True,False,False,True,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Referral,2,Family/GeneralPractice,51,0,10,'Respiratory Issues',8,None,None,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Family/GeneralPractice,56,0,13,Other,5,None,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Other,9,InternalMedicine,60,0,26,Other,9,None,>7,Steady,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,4,Missing,45,0,15,Other,9,None,None,Up,Ch,Yes,True,False,False,False,True,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,1,InternalMedicine,52,0,8,'Respiratory Issues',9,None,None,No,No,No,True,False,False,False,True,False
+Caucasian,Male,'30-60 years',Other,Other,8,Missing,24,3,10,Other,7,None,None,No,No,No,False,False,False,False,False,True
+Caucasian,Female,'Over 60 years',Other,Referral,6,Other,53,0,21,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,10,Missing,54,0,17,'Genitourinary Issues',9,None,None,Steady,Ch,Yes,True,False,False,False,True,False
+Caucasian,Female,'Over 60 years',Other,Referral,6,Missing,34,0,8,'Respiratory Issues',9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Referral,8,Other,33,6,9,Other,4,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,4,Cardiology,57,3,12,Other,7,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Other,5,Other,53,5,24,Other,9,None,None,Steady,No,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Referral,2,Missing,47,6,21,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,True
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Missing,1,6,8,Other,9,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Male,'Over 60 years','Discharged to Home',Emergency,1,Cardiology,1,2,13,Other,7,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,3,Missing,35,0,15,Other,7,None,None,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,1,Missing,35,0,13,Diabetes,9,None,None,No,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,8,Missing,57,2,31,'Respiratory Issues',9,None,Norm,Steady,No,Yes,True,False,False,True,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Emergency,8,Other,53,1,11,Other,7,None,None,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Male,'30-60 years',Other,Referral,6,Missing,38,1,6,Other,5,None,Norm,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,2,Missing,37,0,11,Diabetes,9,None,None,Up,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'Over 60 years',Other,Emergency,4,Missing,39,0,6,Other,9,None,None,Up,Ch,Yes,True,False,False,False,False,True
+AfricanAmerican,Female,'Over 60 years',Other,Referral,10,InternalMedicine,57,1,22,Other,5,None,None,No,No,Yes,False,False,False,True,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,8,Missing,1,2,21,Other,5,None,None,Steady,No,No,False,True,False,False,False,False
+AfricanAmerican,Male,'Over 60 years',Other,Referral,1,Family/GeneralPractice,49,4,10,Other,9,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,2,Emergency/Trauma,43,2,10,'Respiratory Issues',9,None,None,No,No,No,False,False,False,True,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,3,Other,13,0,13,Other,8,None,None,No,No,No,True,False,False,True,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,6,Missing,24,1,10,'Respiratory Issues',9,None,None,No,No,Yes,False,False,False,True,False,True
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Other,45,1,16,Other,5,None,None,Up,Ch,Yes,False,False,False,False,False,False
+AfricanAmerican,Female,'30-60 years','Discharged to Home',Emergency,6,Missing,50,0,9,Diabetes,9,None,Norm,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,3,Missing,33,1,17,Other,7,None,None,No,No,No,False,False,False,False,False,False
+AfricanAmerican,Male,'30-60 years','Discharged to Home',Emergency,1,InternalMedicine,34,4,12,Other,5,None,None,No,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,8,Other,53,0,26,'Respiratory Issues',9,None,>8,Up,Ch,Yes,False,False,False,False,False,False
+Caucasian,Male,'Over 60 years',Other,Referral,1,Missing,43,1,18,'Musculoskeletal Issues',6,None,None,No,No,No,True,False,False,False,False,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,1,Cardiology,47,0,10,Other,4,None,>7,No,No,Yes,False,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Emergency,6,Emergency/Trauma,29,0,18,Other,9,None,None,Steady,Ch,Yes,False,False,False,True,True,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Referral,3,Other,36,0,21,Other,7,None,None,Steady,No,Yes,False,False,False,False,False,True
+Caucasian,Male,'Over 60 years',Other,Referral,9,Missing,48,2,14,Other,9,None,None,Up,Ch,Yes,False,False,False,True,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,3,Missing,41,0,15,Other,9,None,>8,Up,Ch,Yes,True,False,False,False,False,False
+Caucasian,Female,'30-60 years',Other,Other,6,Other,39,0,13,Diabetes,5,None,None,No,No,No,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Emergency,2,Missing,39,0,18,Other,9,None,Norm,Steady,No,Yes,True,False,False,False,False,False
+Caucasian,Female,'Over 60 years','Discharged to Home',Emergency,5,Emergency/Trauma,44,0,13,'Respiratory Issues',9,None,None,Steady,No,No,False,False,True,True,True,False
+Caucasian,Female,'30-60 years','Discharged to Home',Referral,5,InternalMedicine,45,0,17,Other,7,Norm,None,Steady,Ch,Yes,False,False,False,False,False,False
+Caucasian,Female,'Over 60 years',Other,Referral,8,Missing,58,2,18,Other,7,None,None,Steady,No,Yes,True,False,False,True,False,False
+AfricanAmerican,Female,'Over 60 years','Discharged to Home',Emergency,4,Missing,38,0,8,Other,8,None,None,Steady,Ch,Yes,True,False,False,False,False,False
