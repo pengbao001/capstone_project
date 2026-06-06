@@ -54,7 +54,7 @@ Users interact via a natural language goal ("Generate data balanced across gende
 
 ```bash
 git clone <repository-url>
-cd syn_microservice
+cd capstone_project/syn_microservice
 ```
 
 ### Download Pre-trained Models & Dataset
@@ -87,6 +87,14 @@ ls -lh artifacts/*.pkl artifacts/*.json
 ```bash
 # Start all services (api, worker, ui, redis, ollama)
 docker-compose up --build
+
+# This starts the API, worker, Streamlit UI, Redis, and Ollama services.
+
+# On the first run, open another terminal in the same project directory and download the required Ollama model:
+
+docker compose exec ollama ollama pull llama3.1
+
+# After the model is downloaded, keep the first terminal running.
 
 # Wait for startup (~30-60 seconds for Ollama to download llama3.1 model first run)
 # Services will be available at:
