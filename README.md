@@ -25,16 +25,16 @@ Users interact via a natural language goal ("Generate data balanced across gende
 
 ## Key Features Implemented
 
-✅ **Multi-Algorithm Benchmarking** – Compare GaussianCopula, CTGAN, TVAE on identical metrics  
-✅ **LLM-Guided Planning** – Natural language goals auto-generate optimized parameters  
-✅ **Quality Evaluation** – SDMetrics: column shapes, pair correlations, data validity  
-✅ **Fairness Assessment** – Demographic parity, per-group metrics (TPR, FPR) across race/gender/intersections  
-✅ **Privacy Quantification** – Exact duplicates, NN leakage distance, membership inference AUC  
-✅ **Downstream Performance Validation** – Train-on-Synthetic-Test-on-Real (TSTR) model evaluation  
-✅ **Interactive Dashboard** – Streamlit UI with tabs for config, metrics, visualizations, exports  
-✅ **Real-Time Progress Monitoring** – Live job status updates via Redis polling  
-✅ **Asynchronous Job Queue** – Redis-backed worker queue for scalable processing  
-✅ **Artifact Versioning** – Each run stored with unique ID; reproducible configs and results  
+**Multi-Algorithm Benchmarking** – Compare GaussianCopula, CTGAN, TVAE on identical metrics  
+**LLM-Guided Planning** – Natural language goals auto-generate optimized parameters  
+**Quality Evaluation** – SDMetrics: column shapes, pair correlations, data validity  
+**Fairness Assessment** – Demographic parity, per-group metrics (TPR, FPR) across race/gender/intersections  
+**Privacy Quantification** – Exact duplicates, NN leakage distance, membership inference AUC  
+**Downstream Performance Validation** – Train-on-Synthetic-Test-on-Real (TSTR) model evaluation  
+**Interactive Dashboard** – Streamlit UI with tabs for config, metrics, visualizations, exports  
+**Real-Time Progress Monitoring** – Live job status updates via Redis polling  
+**Asynchronous Job Queue** – Redis-backed worker queue for scalable processing  
+**Artifact Versioning** – Each run stored with unique ID; reproducible configs and results  
 
 ---
 
