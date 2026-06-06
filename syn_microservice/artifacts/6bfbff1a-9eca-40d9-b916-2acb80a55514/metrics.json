@@ -1,0 +1,110 @@
+{
+  "run_id": "6bfbff1a-9eca-40d9-b916-2acb80a55514",
+  "rows": [
+    {
+      "run_id": "6bfbff1a-9eca-40d9-b916-2acb80a55514",
+      "generator": "GaussianCopula",
+      "num_rows": 1000,
+      "train_seconds": 7.257785797119141,
+      "diagnostic_score": 0.9999761904761906,
+      "quality_score": 0.8897619047619048,
+      "diag_data_validity": 0.999952380952381,
+      "diag_data_structure": 1.0,
+      "qual_column_shapes": 0.9632238095238095,
+      "qual_column_pair_trends": 0.8163,
+      "new_row_synthesis": 1.0,
+      "table_structure": NaN,
+      "baseline_auc": 0.6225582496172731,
+      "tstr_auc": 0.5160415329353787,
+      "tstr_f1": 0.000878348704435661,
+      "tstr_acc": 0.8882283580622974,
+      "dp_max": 0.0005522573519259975,
+      "baseline_dp_max": 0.0,
+      "dp_amplification": 0.0005522573519259975,
+      "synthetic_sample_csv": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/synthetic/GaussianCopula_sample.csv",
+      "diagnostic_report_pkl": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/reports/sdmetrics/GaussianCopula_diagnostic_report.pkl",
+      "quality_report_pkl": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/reports/sdmetrics/GaussianCopula_quality_report.pkl",
+      "individual_column_metrics_csv": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/reports/details/GaussianCopula_individual_column_metrics.csv",
+      "pair_corr_csv": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/reports/details/GaussianCopula_pair_correlation_similarity.csv",
+      "pair_contingency_csv": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/reports/details/GaussianCopula_pair_contingency_similarity.csv"
+    }
+  ],
+  "full": {
+    "run_id": "6bfbff1a-9eca-40d9-b916-2acb80a55514",
+    "num_rows": 1000,
+    "subset_rows": 10000,
+    "baseline": {
+      "utility_real_to_real": {
+        "auc": 0.6225582496172731,
+        "f1": 0.0,
+        "acc": 0.8884248796305394
+      },
+      "fairness_real_to_real": {
+        "dp_max": 0.0
+      }
+    },
+    "models": {
+      "GaussianCopula": {
+        "reports": {
+          "diagnostic_score": 0.9999761904761906,
+          "quality_score": 0.8897619047619048
+        },
+        "utility": {
+          "baseline": {
+            "auc": 0.6225582496172731,
+            "f1": 0.0,
+            "acc": 0.8884248796305394
+          },
+          "tstr": {
+            "auc": 0.5160415329353787,
+            "f1": 0.000878348704435661,
+            "acc": 0.8882283580622974
+          }
+        },
+        "fairness": {
+          "dp_max": 0.0005522573519259975,
+          "dp_amplification": 0.0005522573519259975,
+          "race": {
+            "view": "race",
+            "dp_diff": 0.00033022917905026086,
+            "dp_ratio": 0.0,
+            "selection_rate_gap": 0.00033022917905026086,
+            "error_rate_gap": 0.02016913897216499,
+            "TPR_gap": 0.0005903187721369539,
+            "FPR_gap": 0.0002974641183907191
+          },
+          "gender": {
+            "view": "gender",
+            "dp_diff": 0.00024226929600416948,
+            "dp_ratio": 0.43000091382619027,
+            "selection_rate_gap": 0.00024226929600416948,
+            "error_rate_gap": 0.0019532731373270856,
+            "TPR_gap": 0.0009615384615384616,
+            "FPR_gap": 0.000152449314600477
+          },
+          "intersection": {
+            "view": "intersection",
+            "dp_diff": 0.0005522573519259975,
+            "dp_ratio": 0.0,
+            "selection_rate_gap": 0.0005522573519259975,
+            "error_rate_gap": 0.13806193806193806,
+            "TPR_gap": 0.0012690355329949238,
+            "FPR_gap": 0.00046475600309837337
+          }
+        },
+        "single_table_metrics": {
+          "new_row_synthesis": 1.0,
+          "table_structure": NaN
+        },
+        "artifacts": {
+          "synthetic_sample_csv": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/synthetic/GaussianCopula_sample.csv",
+          "diagnostic_report_pkl": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/reports/sdmetrics/GaussianCopula_diagnostic_report.pkl",
+          "quality_report_pkl": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/reports/sdmetrics/GaussianCopula_quality_report.pkl",
+          "individual_column_metrics_csv": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/reports/details/GaussianCopula_individual_column_metrics.csv",
+          "pair_corr_csv": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/reports/details/GaussianCopula_pair_correlation_similarity.csv",
+          "pair_contingency_csv": "/artifacts/6bfbff1a-9eca-40d9-b916-2acb80a55514/reports/details/GaussianCopula_pair_contingency_similarity.csv"
+        }
+      }
+    }
+  }
+}

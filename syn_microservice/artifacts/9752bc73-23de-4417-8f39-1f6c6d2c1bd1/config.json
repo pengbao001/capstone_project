@@ -1,0 +1,15 @@
+{
+  "run_id": "9752bc73-23de-4417-8f39-1f6c6d2c1bd1",
+  "dataset": "diabetes",
+  "generators": [
+    "gaussian_copula",
+    "ctgan",
+    "tvae"
+  ],
+  "num_rows": 5000,
+  "subset_rows": 10000,
+  "pair_metric_rows": 5000,
+  "privacy_max_n": 5000,
+  "privacy_percentile": 1.0,
+  "save_plots": true
+}

@@ -1,0 +1,7 @@
+col_a,col_b,metric,score
+time_in_hospital,num_lab_procedures,CorrelationSimilarity,0.9635987172800483
+time_in_hospital,number_diagnoses,CorrelationSimilarity,0.9701386725079819
+time_in_hospital,num_medications,CorrelationSimilarity,0.9733914624727639
+num_lab_procedures,num_medications,CorrelationSimilarity,0.9859762711520509
+num_medications,number_diagnoses,CorrelationSimilarity,0.9924456652739708
+num_lab_procedures,number_diagnoses,CorrelationSimilarity,0.9946984754779599

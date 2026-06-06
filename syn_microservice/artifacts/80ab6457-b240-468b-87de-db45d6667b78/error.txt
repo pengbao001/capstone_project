@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/app/worker.py", line 841, in main
+    run_pipeline(job, out_dir)
+  File "/app/worker.py", line 725, in run_pipeline
+    {baseline : baseline_util, "tstr" : tstr_util})
+     ^^^^^^^^
+NameError: name 'baseline' is not defined
